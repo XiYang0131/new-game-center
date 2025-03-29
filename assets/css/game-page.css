@@ -1,0 +1,264 @@
+/* 游戏页面样式 */
+.game-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.game-details h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--neon-blue);
+  text-shadow: 0 0 10px rgba(5, 217, 232, 0.7);
+}
+
+/* 游戏框架容器 */
+.game-frame-container {
+  position: relative;
+  margin: 2rem 0;
+  background: rgba(7, 2, 21, 0.7);
+  border: 1px solid rgba(5, 217, 232, 0.3);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.game-frame-container iframe {
+  display: block;
+  background: #000;
+  min-height: 600px;
+}
+
+/* 游戏控制按钮 */
+.game-controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: rgba(7, 2, 21, 0.9);
+  border-top: 1px solid rgba(5, 217, 232, 0.3);
+}
+
+.control-btn {
+  background: rgba(5, 217, 232, 0.1);
+  color: white;
+  border: 1px solid rgba(5, 217, 232, 0.5);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.control-btn:hover {
+  background: rgba(5, 217, 232, 0.3);
+  transform: translateY(-2px);
+}
+
+.control-btn i {
+  font-size: 1rem;
+}
+
+.like-btn {
+  color: white;
+}
+
+.like-btn.liked {
+  color: #ff4d6d;
+}
+
+.like-btn.liked i {
+  animation: pulse 0.5s;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+  100% { transform: scale(1); }
+}
+
+/* 游戏描述 */
+.game-description {
+  background: rgba(7, 2, 21, 0.7);
+  border: 1px solid rgba(5, 217, 232, 0.3);
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.game-description h2 {
+  color: var(--neon-blue);
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.game-description p {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.game-features, .game-instructions {
+  margin-top: 1.5rem;
+}
+
+.game-features h3, .game-instructions h3 {
+  color: var(--neon-blue);
+  margin-bottom: 0.8rem;
+  font-size: 1.4rem;
+}
+
+.game-features ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.game-features li {
+  margin-bottom: 0.5rem;
+}
+
+/* 评论区 */
+.comments-section {
+  background: rgba(7, 2, 21, 0.7);
+  border: 1px solid rgba(5, 217, 232, 0.3);
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+
+.comments-section h2 {
+  color: var(--neon-blue);
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.comment-form {
+  margin-bottom: 2rem;
+}
+
+.comment-form textarea {
+  width: 100%;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(5, 217, 232, 0.3);
+  border-radius: 4px;
+  padding: 1rem;
+  color: white;
+  margin-bottom: 1rem;
+  resize: vertical;
+}
+
+.comment {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.comment:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.comment-avatar {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid rgba(5, 217, 232, 0.5);
+}
+
+.comment-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.comment-content {
+  flex: 1;
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.comment-author {
+  font-weight: bold;
+  color: var(--neon-blue);
+}
+
+.comment-date {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.9rem;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .game-frame-container iframe {
+    min-height: 400px;
+  }
+  
+  .game-controls {
+    flex-wrap: wrap;
+  }
+  
+  .comment {
+    flex-direction: column;
+  }
+  
+  .comment-avatar {
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* 游戏加载指示器 */
+.game-loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(7, 2, 21, 0.9);
+  z-index: 5;
+  color: white;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid rgba(5, 217, 232, 0.3);
+  border-radius: 50%;
+  border-top-color: var(--neon-blue);
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* 游戏截图样式 */
+.game-screenshot {
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(5, 217, 232, 0.3);
+}
+
+.game-screenshot img {
+  width: 100%;
+  display: block;
+} 
