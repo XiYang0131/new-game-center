@@ -308,96 +308,33 @@
   position: absolute;
   top: 10px;
   right: 10px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   border: none;
   color: white;
-  width: 44px;
-  height: 44px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  z-index: 100;
+  z-index: 10;
   transition: background 0.3s ease;
-  font-size: 1.2rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .fullscreen-button:hover {
   background: rgba(5, 217, 232, 0.7);
 }
 
-.fullscreen-button:active {
-  transform: scale(0.95);
-}
-
 /* 全屏模式下的样式 */
-:fullscreen .game-container,
-:-webkit-full-screen .game-container,
-:-moz-full-screen .game-container,
-:-ms-fullscreen .game-container {
-  width: 100vw !important;
-  height: 100vh !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  max-width: none !important;
-  background: #000 !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-}
-
-:fullscreen iframe,
-:-webkit-full-screen iframe,
-:-moz-full-screen iframe,
-:-ms-fullscreen iframe {
-  width: 100% !important;
-  height: 100% !important;
-  max-height: none !important;
-  border: none !important;
-}
-
-/* 横屏提示 */
-.rotate-device {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
+:fullscreen .game-container {
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.9);
-  z-index: 9999;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-align: center;
-  padding: 20px;
+  padding: 0;
+  margin: 0;
 }
 
-.rotate-device i {
-  font-size: 4rem;
-  margin-bottom: 20px;
-  animation: rotate 2s infinite;
-  color: var(--neon-blue);
-}
-
-.rotate-device p {
-  font-size: 1.2rem;
-  max-width: 300px;
-}
-
-@keyframes rotate {
-  0% { transform: rotate(0deg); }
-  25% { transform: rotate(90deg); }
-  50% { transform: rotate(90deg); }
-  75% { transform: rotate(0deg); }
-  100% { transform: rotate(0deg); }
-}
-
-@media (max-width: 768px) and (orientation: portrait) {
-  .game-container.fullscreen-active .rotate-device {
-    display: flex;
-  }
+:fullscreen iframe {
+  width: 100%;
+  height: 100%;
 } 

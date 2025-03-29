@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // 游戏页面移动端优化
     const gameContainer = document.querySelector('.game-container');
-    const gameIframe = document.querySelector('.game-container iframe') || document.querySelector('.game-frame-container iframe');
+    const gameIframe = document.querySelector('.game-container iframe');
     
     if (gameContainer && gameIframe) {
         // 设置iframe高度为容器高度
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
         window.addEventListener('resize', adjustIframeHeight);
         
         // 在移动设备上，添加全屏切换功能
-        if (window.innerWidth <= 768 || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        if (window.innerWidth <= 768) {
             const fullscreenButton = document.createElement('button');
             fullscreenButton.className = 'fullscreen-button';
             fullscreenButton.innerHTML = '<i class="fas fa-expand"></i>';
@@ -91,85 +91,14 @@ document.addEventListener('DOMContentLoaded', function() {
             gameContainer.appendChild(fullscreenButton);
             
             fullscreenButton.addEventListener('click', function() {
-                // 检测是否支持屏幕方向锁定API
-                if (screen.orientation && screen.orientation.lock) {
-                    try {
-                        // 尝试锁定为横屏
-                        screen.orientation.lock('landscape').then(() => {
-                            console.log('Screen locked to landscape');
-                        }).catch(err => {
-                            console.error('Screen orientation lock error:', err);
-                        });
-                    } catch (err) {
-                        console.error('Screen orientation API error:', err);
-                    }
-                }
-                
-                // 尝试使用不同的全屏API
-                if (!document.fullscreenElement && 
-                    !document.mozFullScreenElement && 
-                    !document.webkitFullscreenElement && 
-                    !document.msFullscreenElement) {
-                    
-                    // 优先使用iframe的全屏
-                    if (gameIframe.requestFullscreen) {
-                        gameIframe.requestFullscreen();
-                    } else if (gameIframe.mozRequestFullScreen) {
-                        gameIframe.mozRequestFullScreen();
-                    } else if (gameIframe.webkitRequestFullscreen) {
-                        gameIframe.webkitRequestFullscreen();
-                    } else if (gameIframe.msRequestFullscreen) {
-                        gameIframe.msRequestFullscreen();
-                    } 
-                    // 如果iframe全屏失败，尝试容器全屏
-                    else if (gameContainer.requestFullscreen) {
-                        gameContainer.requestFullscreen();
-                    } else if (gameContainer.mozRequestFullScreen) {
-                        gameContainer.mozRequestFullScreen();
-                    } else if (gameContainer.webkitRequestFullscreen) {
-                        gameContainer.webkitRequestFullscreen();
-                    } else if (gameContainer.msRequestFullscreen) {
-                        gameContainer.msRequestFullscreen();
-                    } else {
-                        // 如果所有方法都失败，显示提示
-                        alert('您的浏览器不支持全屏功能，请尝试使用其他浏览器。');
-                    }
-                    
-                    // 更改按钮图标
-                    this.innerHTML = '<i class="fas fa-compress"></i>';
+                if (!document.fullscreenElement) {
+                    gameContainer.requestFullscreen().catch(err => {
+                        console.error(`Error attempting to enable fullscreen: ${err.message}`);
+                    });
                 } else {
-                    // 退出全屏
-                    if (document.exitFullscreen) {
-                        document.exitFullscreen();
-                    } else if (document.mozCancelFullScreen) {
-                        document.mozCancelFullScreen();
-                    } else if (document.webkitExitFullscreen) {
-                        document.webkitExitFullscreen();
-                    } else if (document.msExitFullscreen) {
-                        document.msExitFullscreen();
-                    }
-                    
-                    // 更改按钮图标
-                    this.innerHTML = '<i class="fas fa-expand"></i>';
+                    document.exitFullscreen();
                 }
             });
-            
-            // 监听全屏变化事件
-            document.addEventListener('fullscreenchange', updateFullscreenButton);
-            document.addEventListener('webkitfullscreenchange', updateFullscreenButton);
-            document.addEventListener('mozfullscreenchange', updateFullscreenButton);
-            document.addEventListener('MSFullscreenChange', updateFullscreenButton);
-            
-            function updateFullscreenButton() {
-                if (!document.fullscreenElement && 
-                    !document.mozFullScreenElement && 
-                    !document.webkitFullscreenElement && 
-                    !document.msFullscreenElement) {
-                    fullscreenButton.innerHTML = '<i class="fas fa-expand"></i>';
-                } else {
-                    fullscreenButton.innerHTML = '<i class="fas fa-compress"></i>';
-                }
-            }
         }
     }
 });
