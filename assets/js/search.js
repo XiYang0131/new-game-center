@@ -2,6 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     console.log('Search script loaded');
     
+    // 获取搜索元素
     const searchInput = document.querySelector('.search-bar input');
     const searchButton = document.querySelector('.search-bar button');
     
@@ -46,7 +47,7 @@ function performSearch(query) {
     const games = window.gameData || [];
     console.log('Available game data:', games);
     
-    if (games.length === 0) {
+    if (!games || games.length === 0) {
         console.error('No game data available for search');
         alert('Game data is not available. Please try again later.');
         return;
@@ -81,8 +82,12 @@ function displaySearchResults(results, query) {
         
         // 将容器添加到主内容区域的顶部
         const mainContent = document.querySelector('main');
-        if (mainContent && mainContent.firstChild) {
-            mainContent.insertBefore(resultsContainer, mainContent.firstChild.nextSibling);
+        if (mainContent) {
+            if (mainContent.firstChild) {
+                mainContent.insertBefore(resultsContainer, mainContent.firstChild);
+            } else {
+                mainContent.appendChild(resultsContainer);
+            }
         } else {
             document.body.appendChild(resultsContainer);
         }
@@ -113,8 +118,12 @@ function displaySearchResults(results, query) {
     
     // 添加游戏卡片
     results.forEach(game => {
-        const cardHTML = `
-        <div class="game-card">
+        // 创建游戏卡片元素
+        const gameCard = document.createElement('div');
+        gameCard.className = 'game-card';
+        
+        // 设置游戏卡片内容
+        gameCard.innerHTML = `
             <div class="game-thumbnail">
                 <img src="${game.image}" alt="${game.title}">
                 <div class="share-button">
@@ -138,45 +147,44 @@ function displaySearchResults(results, query) {
                 </div>
                 <a href="${game.url}" class="play-button">Play Now</a>
             </div>
-        </div>
         `;
-        
-        const tempDiv = document.createElement('div');
-        tempDiv.innerHTML = cardHTML;
-        const gameCard = tempDiv.firstChild;
         
         // 添加点击事件
         const playButton = gameCard.querySelector('.play-button');
         if (playButton) {
             gameCard.style.cursor = 'pointer';
             gameCard.addEventListener('click', function(e) {
+                // 如果点击的不是分享按钮或分享下拉菜单，则导航到游戏页面
                 if (!e.target.closest('.share-button') && !e.target.closest('.share-dropdown')) {
                     window.location.href = playButton.href;
                 }
             });
         }
         
+        // 将游戏卡片添加到网格
         gameGrid.appendChild(gameCard);
     });
     
     // 滚动到结果区域
     resultsContainer.scrollIntoView({ behavior: 'smooth' });
     
-    // 添加分享功能到搜索结果中的分享按钮
-    setupShareButtons();
+    // 为复制链接按钮添加事件
+    setupCopyLinks();
 }
 
-// 设置分享按钮功能
-function setupShareButtons() {
+// 设置复制链接功能
+function setupCopyLinks() {
     document.querySelectorAll('.copy-link').forEach(link => {
         link.addEventListener('click', function(e) {
             e.preventDefault();
             const url = this.getAttribute('data-url');
-            navigator.clipboard.writeText(url).then(() => {
-                showToast('Link copied to clipboard!');
-            }).catch(err => {
-                console.error('Could not copy text: ', err);
-            });
+            if (url) {
+                navigator.clipboard.writeText(url).then(() => {
+                    showToast('Link copied to clipboard!');
+                }).catch(err => {
+                    console.error('Could not copy text: ', err);
+                });
+            }
         });
     });
 }
