@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Browse Action games on NeoArcade - Free online games with no downloads">
-    <title>Action Games - NeoArcade</title>
+    <meta name="description" content="Browse Idle games on NeoArcade - Free online games with no downloads">
+    <title>Idle Games - NeoArcade</title>
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/cyberpunk.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -19,7 +19,7 @@
         <nav>
             <ul>
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="action.html" class="active">Action Games</a></li>
+                <li><a href="action.html">Action Games</a></li>
                 <li><a href="puzzle.html">Puzzle Games</a></li>
                 <li><a href="strategy.html">Strategy Games</a></li>
                 <li><a href="rpg.html">Role Playing</a></li>
@@ -31,8 +31,8 @@
     <main>
         <section class="category-header">
             <div class="container">
-                <h1>Action Games</h1>
-                <p>Explore our collection of fast-paced, reflex-testing action games</p>
+                <h1>Idle Games</h1>
+                <p>Watch your progress grow automatically in our collection of incremental and idle games</p>
             </div>
         </section>
 
@@ -103,8 +103,8 @@
             }
             
             // 过滤当前分类的游戏
-            const categoryGames = games.filter(game => game.category === 'Action');
-            console.log('Found', categoryGames.length, 'games in category Action');
+            const categoryGames = games.filter(game => game.category === 'Idle');
+            console.log('Found', categoryGames.length, 'games in category Idle');
             
             // 获取游戏网格
             const gameGrid = document.getElementById('category-games');
