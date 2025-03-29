@@ -251,12 +251,12 @@ function loadGameData() {
     });
 }
 
-// 创建游戏卡片HTML，使用懒加载
+// 创建游戏卡片HTML，不使用懒加载
 function createGameCard(game) {
     return `
     <div class="game-card">
         <div class="game-thumbnail">
-            <img src="assets/images/placeholder.jpg" data-src="${game.image}" alt="${game.title}" class="lazy-image">
+            <img src="${game.image}" alt="${game.title}">
             <div class="share-button">
                 <i class="fas fa-share-alt"></i>
                 <div class="share-dropdown">
