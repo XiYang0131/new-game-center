@@ -131,14 +131,10 @@
                 const gameCard = document.createElement('div');
                 gameCard.className = 'game-card';
                 
-                // 确保图片路径正确
-                const imagePath = game.image.startsWith('http') ? game.image : `../${game.image}`;
-                const placeholderPath = '../assets/images/placeholder.jpg';
-                
                 // 设置游戏卡片内容
                 gameCard.innerHTML = `
                     <div class="game-thumbnail">
-                        <img src="${placeholderPath}" data-src="${imagePath}" alt="${game.title}" class="lazy-image">
+                        <img src="../${game.image}" alt="${game.title}">
                         <div class="share-button">
                             <i class="fas fa-share-alt"></i>
                             <div class="share-dropdown">
