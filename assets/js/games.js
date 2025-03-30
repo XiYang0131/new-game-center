@@ -359,6 +359,54 @@ function loadGameData() {
             category: 'Puzzle',
             rating: '★★★★☆',
             url: 'games/number-race.html'
+        },
+        {
+            title: 'Fish.io - Be the King',
+            image: 'assets/images/games/fish-io-be-the-king.jpg',
+            description: 'Grow your fish, eat smaller players, and dominate the ocean in this addictive multiplayer io game with colorful graphics and strategic gameplay.',
+            category: 'Action',
+            rating: '★★★★☆',
+            url: 'games/fish-io-be-the-king.html'
+        },
+        {
+            title: 'Madness Car Destroy',
+            image: 'assets/images/games/madness-car-destroy.jpg',
+            description: 'Crash, smash and destroy vehicles in this action-packed demolition derby game with realistic physics and spectacular crash effects.',
+            category: 'Action',
+            rating: '★★★★☆',
+            url: 'games/madness-car-destroy.html'
+        },
+        {
+            title: 'Dark Stones Card Battle RPG',
+            image: 'assets/images/games/dark-stones-card-battle-rpg.jpg',
+            description: 'Build powerful decks, battle enemies, and embark on an epic fantasy adventure in this strategic card game with deep RPG elements.',
+            category: 'RPG',
+            rating: '★★★★★',
+            url: 'games/dark-stones-card-battle-rpg.html'
+        },
+        {
+            title: 'Swing Monster Decisive Battle',
+            image: 'assets/images/games/swing-monster-decisive-battle.jpg',
+            description: 'Swing through challenging levels, defeat enemies, and overcome obstacles in this action-packed adventure game with unique grappling mechanics.',
+            category: 'Action',
+            rating: '★★★★☆',
+            url: 'games/swing-monster-decisive-battle.html'
+        },
+        {
+            title: 'Crazy Miners Multiplayer',
+            image: 'assets/images/games/crazy-miners-multiplayer.jpg',
+            description: 'Mine resources, build defenses, and battle other players in this exciting multiplayer mining game with strategic gameplay and alliance system.',
+            category: 'Strategy',
+            rating: '★★★★★',
+            url: 'games/crazy-miners-multiplayer.html'
+        },
+        {
+            title: 'AutoRPG Arena FBU',
+            image: 'assets/images/games/autorpg-arena-fbu.jpg',
+            description: 'Build your team, equip powerful gear, and battle through challenging encounters in this strategic auto-battler RPG with deep customization options.',
+            category: 'RPG',
+            rating: '★★★★★',
+            url: 'games/autorpg-arena-fbu.html'
         }
     ];
     
