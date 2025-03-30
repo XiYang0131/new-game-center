@@ -319,6 +319,46 @@ function loadGameData() {
             category: 'Sports',
             rating: '★★★★☆',
             url: 'games/foot-battle-ball.html'
+        },
+        {
+            title: 'Obby Pull a Sword',
+            image: 'assets/images/games/obby-pull-a-sword.jpg',
+            description: 'Navigate challenging obstacle courses and pull legendary swords that grant unique abilities in this exciting adventure game.',
+            category: 'Adventure',
+            rating: '★★★★☆',
+            url: 'games/obby-pull-a-sword.html'
+        },
+        {
+            title: 'Lurkers.io',
+            image: 'assets/images/games/lurkers-io.jpg',
+            description: 'Survive and dominate in this multiplayer survival game where you gather resources, craft weapons, and battle other players in an ever-shrinking world.',
+            category: 'Action',
+            rating: '★★★★★',
+            url: 'games/lurkers-io.html'
+        },
+        {
+            title: 'Monster Slayer Idle Clicker',
+            image: 'assets/images/games/monster-slayer-idle-clicker.jpg',
+            description: 'Defeat monsters, collect gold, and upgrade your hero in this addictive idle clicker game with deep progression systems.',
+            category: 'Idle',
+            rating: '★★★★☆',
+            url: 'games/monster-slayer-idle-clicker.html'
+        },
+        {
+            title: 'Panda Shop Simulator',
+            image: 'assets/images/games/panda-shop-simulator.jpg',
+            description: 'Run your own shop, serve customers, and expand your business in this cute and addictive simulation game featuring an adorable panda shopkeeper.',
+            category: 'Simulation',
+            rating: '★★★★☆',
+            url: 'games/panda-shop-simulator.html'
+        },
+        {
+            title: 'Number Race',
+            image: 'assets/images/games/number-race.jpg',
+            description: 'Test your math skills and quick thinking in this fast-paced number puzzle game with multiple game modes and progressive difficulty.',
+            category: 'Puzzle',
+            rating: '★★★★☆',
+            url: 'games/number-race.html'
         }
     ];
     
