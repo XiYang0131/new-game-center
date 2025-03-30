@@ -337,4 +337,18 @@
 :fullscreen iframe {
   width: 100%;
   height: 100%;
+}
+
+/* 针对Park Town游戏的特殊样式 */
+.park-town-container iframe {
+    aspect-ratio: 16/9;
+    width: 100%;
+    height: auto;
+    max-height: 80vh;
+}
+
+@media (max-width: 768px) {
+    .park-town-container iframe {
+        height: 70vh;
+    }
 } 
