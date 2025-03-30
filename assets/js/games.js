@@ -239,6 +239,86 @@ function loadGameData() {
             category: 'Strategy',
             rating: '★★★★★',
             url: 'games/stronghold-dude.html'
+        },
+        {
+            title: 'Space.io VFT',
+            image: 'assets/images/games/space-io-vft.jpg',
+            description: 'Battle other players in this multiplayer space shooter with upgradeable ships, resource collection and intense combat.',
+            category: 'Action',
+            rating: '★★★★★',
+            url: 'games/space-io-vft.html'
+        },
+        {
+            title: 'Hoop Rivals OUD',
+            image: 'assets/images/games/hoop-rivals-oud.jpg',
+            description: 'Compete in fast-paced basketball matches with unique characters, special moves and multiple game modes.',
+            category: 'Sports',
+            rating: '★★★★☆',
+            url: 'games/hoop-rivals-oud.html'
+        },
+        {
+            title: 'Pizza Car',
+            image: 'assets/images/games/pizza-car.jpg',
+            description: 'Deliver pizzas as fast as possible in this fun driving simulation game with challenging levels and upgradeable vehicles.',
+            category: 'Simulation',
+            rating: '★★★★☆',
+            url: 'games/pizza-car.html'
+        },
+        {
+            title: 'Money Ping Pong STJ',
+            image: 'assets/images/games/money-ping-pong-stj.jpg',
+            description: 'Test your reflexes in this fast-paced table tennis game with unique money-themed gameplay and upgrade system.',
+            category: 'Sports',
+            rating: '★★★★☆',
+            url: 'games/money-ping-pong-stj.html'
+        },
+        {
+            title: 'Zombie Crusher OOZ',
+            image: 'assets/images/games/zombie-crusher-ooz.jpg',
+            description: 'Crush hordes of zombies with powerful vehicles in this action-packed survival game with upgrades and challenging missions.',
+            category: 'Action',
+            rating: '★★★★☆',
+            url: 'games/zombie-crusher-ooz.html'
+        },
+        {
+            title: '100 Doors Around the World',
+            image: 'assets/images/games/100-doors-around-the-world.jpg',
+            description: 'Solve challenging puzzles to unlock doors and travel around the world in this brain-teasing adventure with 100 unique levels.',
+            category: 'Puzzle',
+            rating: '★★★★★',
+            url: 'games/100-doors-around-the-world.html'
+        },
+        {
+            title: 'Knock Em All',
+            image: 'assets/images/games/knock-em-all.jpg',
+            description: 'Test your aim and timing in this addictive physics-based game where you knock down targets with balls to complete challenging levels.',
+            category: 'Arcade',
+            rating: '★★★★☆',
+            url: 'games/knock-em-all.html'
+        },
+        {
+            title: 'Tiny Auto Knight',
+            image: 'assets/images/games/tiny-auto-knight.jpg',
+            description: 'Battle monsters and upgrade your hero in this addictive auto-battler RPG with roguelike elements and strategic decision-making.',
+            category: 'RPG',
+            rating: '★★★★★',
+            url: 'games/tiny-auto-knight.html'
+        },
+        {
+            title: 'Rope Rescue',
+            image: 'assets/images/games/rope-rescue.jpg',
+            description: 'Draw ropes to save people in this addictive physics-based puzzle game with challenging levels and realistic rope mechanics.',
+            category: 'Puzzle',
+            rating: '★★★★☆',
+            url: 'games/rope-rescue.html'
+        },
+        {
+            title: 'Foot Battle Ball',
+            image: 'assets/images/games/foot-battle-ball.jpg',
+            description: 'Compete in exciting soccer matches with unique characters and special abilities in this fun arcade-style sports game.',
+            category: 'Sports',
+            rating: '★★★★☆',
+            url: 'games/foot-battle-ball.html'
         }
     ];
     
@@ -272,7 +352,8 @@ function loadGameData() {
         'Simulation': 7,
         'Casual': 8,
         'Adventure': 9,
-        'Idle': 10  // 添加新分类
+        'Idle': 10,  // 添加新分类
+        'Sports': 11  // 添加新分类
     };
     
     // 将游戏添加到"All"标签

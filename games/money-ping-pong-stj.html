@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z9YBZ99MQ7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Z9YBZ99MQ7');
+</script>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content="Play Money Ping Pong STJ online for free on NeoArcade - Compete in exciting ping pong matches and earn money">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Play Money Ping Pong STJ - Test your reflexes in this fast-paced table tennis game with unique money-themed gameplay">
     <title>Money Ping Pong STJ - NeoArcade</title>
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/cyberpunk.css">
     <link rel="stylesheet" href="../assets/css/game-page.css">
-    <link rel="stylesheet" href="../assets/css/mobile-fullscreen.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="icon" href="../assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body class="no-js">
     <header>
@@ -25,6 +33,7 @@
                 <li><a href="../categories/puzzle.html">Puzzle Games</a></li>
                 <li><a href="../categories/strategy.html">Strategy Games</a></li>
                 <li><a href="../categories/rpg.html">Role Playing</a></li>
+                <li><a href="../categories/sports.html" class="active">Sports Games</a></li>
                 <li><a href="../about.html">About Us</a></li>
             </ul>
         </nav>
@@ -32,62 +41,117 @@
 
     <main>
         <div class="game-container">
-            <div class="game-title">
+            <div class="game-details">
                 <h1>Money Ping Pong STJ</h1>
-            </div>
-            
-            <div class="game-frame-container">
-                <iframe src="https://www.crazygames.com/embed/money-ping-pong-stj" frameborder="0" scrolling="no" allowfullscreen class="game-frame" allow="gamepad *;"></iframe>
-                <div class="loading-indicator">
-                    <div class="spinner"></div>
-                    <p>Loading Game...</p>
+                <div class="game-meta-info">
+                    <span class="category">Sports</span>
+                    <span class="rating">★★★★☆</span>
+                    <div class="share-container">
+                        <span>Share: </span>
+                        <div class="share-icons">
+                            <a href="https://twitter.com/intent/tweet?url=https://neoarcade.com/games/money-ping-pong-stj.html&text=Check out this exciting Money Ping Pong STJ game!" target="_blank" class="share-icon twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://neoarcade.com/games/money-ping-pong-stj.html" target="_blank" class="share-icon facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://neoarcade.com/games/money-ping-pong-stj.html" target="_blank" class="share-icon linkedin"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://pinterest.com/pin/create/button/?url=https://neoarcade.com/games/money-ping-pong-stj.html&media=https://neoarcade.com/assets/images/games/money-ping-pong-stj.jpg&description=Money Ping Pong STJ" target="_blank" class="share-icon pinterest"><i class="fab fa-pinterest"></i></a>
+                            <a href="https://api.whatsapp.com/send?text=Check out this exciting Money Ping Pong STJ game! https://neoarcade.com/games/money-ping-pong-stj.html" target="_blank" class="share-icon whatsapp"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#" class="share-icon copy-link" data-url="https://neoarcade.com/games/money-ping-pong-stj.html"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
             
-            <div class="game-controls">
-                <button class="control-btn fullscreen-btn"><i class="fas fa-expand"></i> Fullscreen</button>
-                <button class="control-btn restart-btn"><i class="fas fa-redo"></i> Restart</button>
-                <button class="control-btn like-btn"><i class="far fa-heart"></i> <span class="like-count">0</span></button>
+            <div class="game-frame-container">
+                <!-- Game iframe -->
+                <iframe src="https://www.crazygames.com/embed/money-ping-pong-stj" 
+                        width="100%" height="600" 
+                        frameborder="0" 
+                        allow="gamepad *; fullscreen *; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                        id="game-frame"></iframe>
+                
+                <!-- Game control buttons -->
+                <div class="game-controls">
+                    <button class="control-btn fullscreen-btn"><i class="fas fa-expand"></i> Fullscreen</button>
+                    <button class="control-btn restart-btn"><i class="fas fa-redo"></i> Restart</button>
+                    <button class="control-btn like-btn"><i class="fas fa-heart"></i> <span class="like-count">91</span></button>
+                </div>
             </div>
             
             <div class="game-description">
                 <h2>About Money Ping Pong STJ</h2>
-                <p>Money Ping Pong STJ is an exciting sports game that combines the thrill of table tennis with a money-earning progression system. Compete against increasingly challenging opponents, improve your skills, and earn virtual money to upgrade your equipment and abilities. With realistic physics, responsive controls, and a variety of opponents to face, this game offers an addictive ping pong experience for players of all skill levels.</p>
+                <p>Money Ping Pong STJ is an exciting and unique take on the classic table tennis game. In this fast-paced sports game, you'll test your reflexes and precision as you compete against increasingly skilled opponents. What makes this game special is its money-themed gameplay - earn cash for winning matches and performing special shots, then use your earnings to upgrade your equipment and skills. With multiple game modes, various opponents with different playing styles, and a progression system that keeps you coming back for more, Money Ping Pong STJ offers a fresh and entertaining ping pong experience.</p>
+                
+                <div class="game-screenshot">
+                    <img src="../assets/images/games/money-ping-pong-stj.jpg" alt="Money Ping Pong STJ Screenshot">
+                </div>
                 
                 <div class="game-features">
-                    <h3>Features:</h3>
+                    <h3>Features</h3>
                     <ul>
-                        <li>Realistic ping pong physics and gameplay mechanics</li>
-                        <li>Multiple opponents with different playing styles and difficulty levels</li>
-                        <li>Progression system with virtual money rewards</li>
-                        <li>Equipment upgrades to improve your performance</li>
-                        <li>Various game modes including tournament and practice</li>
-                        <li>Intuitive controls suitable for both beginners and experienced players</li>
-                        <li>Vibrant graphics and engaging sound effects</li>
+                        <li>Multiple game modes including Tournament, Quick Match, and Practice</li>
+                        <li>Various opponents with unique playing styles and difficulty levels</li>
+                        <li>Equipment upgrade system with different paddles and tables</li>
+                        <li>Skill progression allowing you to improve your character's abilities</li>
+                        <li>Special shots and techniques to master</li>
+                        <li>Money-based reward system for winning matches and completing challenges</li>
+                        <li>Realistic physics for authentic table tennis gameplay</li>
+                        <li>Achievement system with bonus rewards</li>
                     </ul>
                 </div>
                 
                 <div class="game-instructions">
-                    <h3>How to Play:</h3>
-                    <p>Use your mouse to control your paddle. Move it up and down to hit the ball back to your opponent. Time your hits carefully to control the direction and speed of the ball. Win points by making your opponent miss the ball. Complete matches to earn virtual money, which you can use to purchase better paddles, upgrade your skills, or unlock new venues. Progress through the tournament mode to face increasingly difficult opponents and earn bigger rewards. Practice your skills in the training mode to improve your technique without the pressure of competition.</p>
+                    <h3>How to Play</h3>
+                    <p>Use your mouse to control your paddle - move it around to hit the ball back to your opponent's side of the table. The left mouse button performs a normal shot, while the right mouse button executes a power shot when your power meter is charged. Move your paddle to different positions to change the angle and direction of your shots. Timing is crucial - hitting the ball at the perfect moment will result in a more powerful and accurate shot. As you win matches, you'll earn money that can be spent in the shop to upgrade your equipment. Different paddles offer various advantages such as increased power, better control, or improved spin capabilities. Practice your timing and positioning in the training mode before taking on challenging opponents in the tournament. Watch your opponent's movements carefully to anticipate their shots and develop counter-strategies. Some opponents favor power shots, while others rely on tricky spins or precise placement. Adapt your playing style accordingly to maximize your chances of winning.</p>
                 </div>
             </div>
             
-            <div class="related-games">
-                <h2>You May Also Like</h2>
-                <div class="game-grid">
-                    <!-- Related games will be loaded dynamically -->
-                </div>
-            </div>
-            
+            <!-- Comments section -->
             <div class="comments-section">
                 <h2>Comments</h2>
                 <div class="comment-form">
-                    <textarea placeholder="Leave your comment..."></textarea>
+                    <textarea placeholder="Share your thoughts about this game..."></textarea>
                     <button class="cyber-button">Post Comment</button>
                 </div>
                 <div class="comments-list">
-                    <!-- Comments will be loaded dynamically -->
+                    <!-- Example comments -->
+                    <div class="comment">
+                        <div class="comment-avatar">
+                            <img src="../assets/images/avatars/user35.jpg" alt="User Avatar">
+                        </div>
+                        <div class="comment-content">
+                            <div class="comment-header">
+                                <span class="comment-author">PingPongPro</span>
+                                <span class="comment-date">2023-10-18</span>
+                            </div>
+                            <p>I've played a lot of table tennis games, and this one stands out because of its unique money system and upgrade mechanics. The physics feel pretty realistic, and I love how different paddles actually change the gameplay rather than just being cosmetic. The "Spin Master" paddle is my favorite - once you get used to the reduced power, the spin control lets you pull off some amazing shots that opponents struggle to return. The tournament mode gets genuinely challenging in the later rounds - that final opponent is no joke! Took me several attempts to finally beat him.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="comment">
+                        <div class="comment-avatar">
+                            <img src="../assets/images/avatars/user36.jpg" alt="User Avatar">
+                        </div>
+                        <div class="comment-content">
+                            <div class="comment-header">
+                                <span class="comment-author">TableTennisNewbie</span>
+                                <span class="comment-date">2023-10-14</span>
+                            </div>
+                            <p>This game is surprisingly addictive! I started playing just to kill some time, but the progression system keeps me coming back. I appreciate that the difficulty curve is gradual - it gives you time to learn the mechanics before throwing really tough opponents at you. The tutorial does a good job explaining the basics, but I'd recommend spending some time in practice mode to really get the hang of the timing for power shots. One tip for beginners: focus on upgrading your paddle's control stat first rather than power. It makes a huge difference in your ability to place shots accurately and return difficult serves.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="comment">
+                        <div class="comment-avatar">
+                            <img src="../assets/images/avatars/user37.jpg" alt="User Avatar">
+                        </div>
+                        <div class="comment-content">
+                            <div class="comment-header">
+                                <span class="comment-author">SportsFanatic</span>
+                                <span class="comment-date">2023-10-10</span>
+                            </div>
+                            <p>The money theme in this game adds a fun twist to traditional ping pong. I like how you can earn bonus cash for performing special shots or winning without missing any returns. The different tables aren't just visual changes either - they affect how the ball bounces and moves, which adds another layer of strategy. My favorite mode is the daily challenge, where you face a random opponent with special conditions (like faster ball speed or limited visibility). The rewards are great, and it keeps the gameplay fresh. My only suggestion would be to add a multiplayer mode so I could challenge my friends. Otherwise, it's a solid sports game that's easy to pick up but takes time to master.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -119,8 +183,8 @@
                     <li><a href="../categories/simulation.html">Simulation Games</a></li>
                     <li><a href="../categories/casual.html">Casual Games</a></li>
                     <li><a href="../categories/adventure.html">Adventure Games</a></li>
-                    <li><a href="../categories/idle.html">Idle Games</a></li>
                     <li><a href="../categories/sports.html">Sports Games</a></li>
+                    <li><a href="../categories/idle.html">Idle Games</a></li>
                 </ul>
             </div>
             <div class="footer-social">
@@ -139,14 +203,6 @@
 
     <script src="../assets/js/main.js"></script>
     <script src="../assets/js/game-page.js"></script>
-    <script src="../assets/js/mobile-fullscreen.js"></script>
-    <script src="../assets/js/lazy-load.js"></script>
-    <script>
-        // 加载相关游戏
-        loadRelatedGames();
-        
-        // 设置评论系统
-        setupCommentSystem();
-    </script>
+    <script src="../assets/js/share.js"></script>
 </body>
 </html> 

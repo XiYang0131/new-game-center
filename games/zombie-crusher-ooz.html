@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z9YBZ99MQ7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Z9YBZ99MQ7');
+</script>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content="Play Zombie Crusher OOZ online for free on NeoArcade - Crush zombies with your vehicle in this action-packed driving game">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Play Zombie Crusher OOZ - Crush hordes of zombies with powerful vehicles in this action-packed survival game">
     <title>Zombie Crusher OOZ - NeoArcade</title>
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/cyberpunk.css">
     <link rel="stylesheet" href="../assets/css/game-page.css">
-    <link rel="stylesheet" href="../assets/css/mobile-fullscreen.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="icon" href="../assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body class="no-js">
     <header>
@@ -21,7 +29,7 @@
         <nav>
             <ul>
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="../categories/action.html">Action Games</a></li>
+                <li><a href="../categories/action.html" class="active">Action Games</a></li>
                 <li><a href="../categories/puzzle.html">Puzzle Games</a></li>
                 <li><a href="../categories/strategy.html">Strategy Games</a></li>
                 <li><a href="../categories/rpg.html">Role Playing</a></li>
@@ -32,62 +40,117 @@
 
     <main>
         <div class="game-container">
-            <div class="game-title">
+            <div class="game-details">
                 <h1>Zombie Crusher OOZ</h1>
-            </div>
-            
-            <div class="game-frame-container">
-                <iframe src="https://www.crazygames.com/embed/zombie-crusher-ooz" frameborder="0" scrolling="no" allowfullscreen class="game-frame" allow="gamepad *;"></iframe>
-                <div class="loading-indicator">
-                    <div class="spinner"></div>
-                    <p>Loading Game...</p>
+                <div class="game-meta-info">
+                    <span class="category">Action</span>
+                    <span class="rating">★★★★☆</span>
+                    <div class="share-container">
+                        <span>Share: </span>
+                        <div class="share-icons">
+                            <a href="https://twitter.com/intent/tweet?url=https://neoarcade.com/games/zombie-crusher-ooz.html&text=Check out this action-packed Zombie Crusher OOZ game!" target="_blank" class="share-icon twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://neoarcade.com/games/zombie-crusher-ooz.html" target="_blank" class="share-icon facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://neoarcade.com/games/zombie-crusher-ooz.html" target="_blank" class="share-icon linkedin"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://pinterest.com/pin/create/button/?url=https://neoarcade.com/games/zombie-crusher-ooz.html&media=https://neoarcade.com/assets/images/games/zombie-crusher-ooz.jpg&description=Zombie Crusher OOZ" target="_blank" class="share-icon pinterest"><i class="fab fa-pinterest"></i></a>
+                            <a href="https://api.whatsapp.com/send?text=Check out this action-packed Zombie Crusher OOZ game! https://neoarcade.com/games/zombie-crusher-ooz.html" target="_blank" class="share-icon whatsapp"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#" class="share-icon copy-link" data-url="https://neoarcade.com/games/zombie-crusher-ooz.html"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
             
-            <div class="game-controls">
-                <button class="control-btn fullscreen-btn"><i class="fas fa-expand"></i> Fullscreen</button>
-                <button class="control-btn restart-btn"><i class="fas fa-redo"></i> Restart</button>
-                <button class="control-btn like-btn"><i class="far fa-heart"></i> <span class="like-count">0</span></button>
+            <div class="game-frame-container">
+                <!-- Game iframe -->
+                <iframe src="https://www.crazygames.com/embed/zombie-crusher-ooz" 
+                        width="100%" height="600" 
+                        frameborder="0" 
+                        allow="gamepad *; fullscreen *; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                        id="game-frame"></iframe>
+                
+                <!-- Game control buttons -->
+                <div class="game-controls">
+                    <button class="control-btn fullscreen-btn"><i class="fas fa-expand"></i> Fullscreen</button>
+                    <button class="control-btn restart-btn"><i class="fas fa-redo"></i> Restart</button>
+                    <button class="control-btn like-btn"><i class="fas fa-heart"></i> <span class="like-count">104</span></button>
+                </div>
             </div>
             
             <div class="game-description">
                 <h2>About Zombie Crusher OOZ</h2>
-                <p>Zombie Crusher OOZ is an action-packed driving game where you take control of powerful vehicles to crush hordes of zombies. Navigate through apocalyptic environments, upgrade your vehicles, and eliminate as many undead as possible. With multiple vehicles to unlock, various zombie types to crush, and challenging levels to complete, this game offers hours of zombie-smashing fun!</p>
+                <p>Zombie Crusher OOZ is an action-packed survival game where you take control of powerful vehicles to crush hordes of the undead. In a world overrun by zombies, your mission is to clear areas of the infected using modified vehicles equipped with deadly weapons and reinforced frames. Drive through waves of zombies, collect resources, upgrade your vehicles, and survive as long as possible in this adrenaline-fueled zombie apocalypse game. With multiple vehicles to unlock, various zombie types to crush, and challenging environments to navigate, Zombie Crusher OOZ offers hours of intense zombie-smashing action.</p>
+                
+                <div class="game-screenshot">
+                    <img src="../assets/images/games/zombie-crusher-ooz.jpg" alt="Zombie Crusher OOZ Screenshot">
+                </div>
                 
                 <div class="game-features">
-                    <h3>Features:</h3>
+                    <h3>Features</h3>
                     <ul>
-                        <li>Multiple powerful vehicles to unlock and upgrade</li>
+                        <li>Multiple vehicles with unique handling and crushing capabilities</li>
+                        <li>Extensive upgrade system for speed, armor, and weapons</li>
                         <li>Various zombie types with different behaviors and strengths</li>
-                        <li>Challenging levels with increasing difficulty</li>
-                        <li>Upgrade system to enhance your vehicle's performance</li>
-                        <li>Realistic physics and satisfying crushing mechanics</li>
-                        <li>Post-apocalyptic environments with detailed graphics</li>
-                        <li>Action-packed gameplay with intense zombie encounters</li>
+                        <li>Multiple environments and mission types</li>
+                        <li>Resource collection and management</li>
+                        <li>Challenging boss zombies</li>
+                        <li>Satisfying physics-based zombie crushing mechanics</li>
+                        <li>Progression system with unlockable content</li>
                     </ul>
                 </div>
                 
                 <div class="game-instructions">
-                    <h3>How to Play:</h3>
-                    <p>Use the arrow keys or WASD to control your vehicle. Drive over zombies to crush them and earn points. Collect power-ups and coins scattered throughout the levels to upgrade your vehicle. Complete level objectives to progress and unlock new vehicles. Watch out for special zombies that may be more difficult to crush or have unique abilities. Manage your vehicle's health as collisions with obstacles can damage it. Upgrade your vehicle between levels to improve its speed, durability, and crushing power.</p>
+                    <h3>How to Play</h3>
+                    <p>Use the arrow keys or WASD to control your vehicle. Up/W accelerates, Down/S brakes and reverses, Left/A and Right/D steer. Press Space to activate special abilities or weapons when they're charged. Drive over zombies to crush them and earn points. Different vehicles have different weights and crushing capabilities - heavier vehicles can crush more zombies but are slower and harder to maneuver. Collect resources dropped by zombies to earn currency for upgrades. Between levels, visit the garage to upgrade your vehicle's speed, armor, fuel capacity, and weapons. Some zombies require specific tactics to defeat - watch out for exploding zombies that can damage your vehicle, and armored zombies that are resistant to being crushed. Complete mission objectives to progress through the game and unlock new areas and vehicles. Keep an eye on your vehicle's health and fuel - if either runs out, it's game over. Use nitro boosts (activated by pressing Shift) strategically to escape from large hordes or to quickly reach objectives.</p>
                 </div>
             </div>
             
-            <div class="related-games">
-                <h2>You May Also Like</h2>
-                <div class="game-grid">
-                    <!-- Related games will be loaded dynamically -->
-                </div>
-            </div>
-            
+            <!-- Comments section -->
             <div class="comments-section">
                 <h2>Comments</h2>
                 <div class="comment-form">
-                    <textarea placeholder="Leave your comment..."></textarea>
+                    <textarea placeholder="Share your thoughts about this game..."></textarea>
                     <button class="cyber-button">Post Comment</button>
                 </div>
                 <div class="comments-list">
-                    <!-- Comments will be loaded dynamically -->
+                    <!-- Example comments -->
+                    <div class="comment">
+                        <div class="comment-avatar">
+                            <img src="../assets/images/avatars/user38.jpg" alt="User Avatar">
+                        </div>
+                        <div class="comment-content">
+                            <div class="comment-header">
+                                <span class="comment-author">ZombieSlayer99</span>
+                                <span class="comment-date">2023-10-20</span>
+                            </div>
+                            <p>This game is incredibly satisfying! There's something therapeutic about plowing through hordes of zombies with a souped-up monster truck. The physics are really well done - zombies go flying in all directions when you hit them at high speed. I've unlocked most of the vehicles, and the tank is definitely my favorite for pure crushing power, though the sports car is great when you need to complete timed missions. Pro tip: Focus on armor upgrades first, then weapons. You can always drive around to avoid zombies, but when you get surrounded, you need to be able to take some hits while you fight your way out.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="comment">
+                        <div class="comment-avatar">
+                            <img src="../assets/images/avatars/user39.jpg" alt="User Avatar">
+                        </div>
+                        <div class="comment-content">
+                            <div class="comment-header">
+                                <span class="comment-author">ApocalypseSurvivor</span>
+                                <span class="comment-date">2023-10-15</span>
+                            </div>
+                            <p>The variety of missions keeps this game interesting even after hours of play. I particularly enjoy the escort missions where you have to protect a civilian vehicle - they add a nice strategic element since you can't just focus on crushing zombies. The boss zombies are genuinely challenging too, especially the Behemoth that appears in the later levels. It took me several attempts to figure out its pattern and weak spots. The upgrade system is deep enough to be engaging without being overwhelming. My only suggestion would be to add more environmental hazards or interactive elements to the maps to add even more variety.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="comment">
+                        <div class="comment-avatar">
+                            <img src="../assets/images/avatars/user40.jpg" alt="User Avatar">
+                        </div>
+                        <div class="comment-content">
+                            <div class="comment-header">
+                                <span class="comment-author">CasualGamer42</span>
+                                <span class="comment-date">2023-10-10</span>
+                            </div>
+                            <p>This is the perfect game to play when you just want to blow off some steam. The controls are simple enough that you can jump right in, but there's enough depth to keep you coming back. I love the sound design - the squishing noises when you run over zombies and the engine roars are so satisfying. The night missions add an extra layer of challenge since you can only see what's in your headlights. For beginners, I recommend starting with the pickup truck - it has a good balance of speed and crushing power. Also, don't forget to use your nitro boost to escape when you get surrounded! Looking forward to seeing what new vehicles they might add in updates.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -119,8 +182,8 @@
                     <li><a href="../categories/simulation.html">Simulation Games</a></li>
                     <li><a href="../categories/casual.html">Casual Games</a></li>
                     <li><a href="../categories/adventure.html">Adventure Games</a></li>
-                    <li><a href="../categories/idle.html">Idle Games</a></li>
                     <li><a href="../categories/sports.html">Sports Games</a></li>
+                    <li><a href="../categories/idle.html">Idle Games</a></li>
                 </ul>
             </div>
             <div class="footer-social">
@@ -139,14 +202,6 @@
 
     <script src="../assets/js/main.js"></script>
     <script src="../assets/js/game-page.js"></script>
-    <script src="../assets/js/mobile-fullscreen.js"></script>
-    <script src="../assets/js/lazy-load.js"></script>
-    <script>
-        // 加载相关游戏
-        loadRelatedGames();
-        
-        // 设置评论系统
-        setupCommentSystem();
-    </script>
+    <script src="../assets/js/share.js"></script>
 </body>
 </html> 

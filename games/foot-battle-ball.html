@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z9YBZ99MQ7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Z9YBZ99MQ7');
+</script>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content="Play Foot Battle Ball online for free on NeoArcade - Compete in exciting soccer matches with unique characters and power-ups">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Play Foot Battle Ball - Compete in exciting soccer matches with unique characters and special abilities in this fun sports game">
     <title>Foot Battle Ball - NeoArcade</title>
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/cyberpunk.css">
     <link rel="stylesheet" href="../assets/css/game-page.css">
-    <link rel="stylesheet" href="../assets/css/mobile-fullscreen.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="icon" href="../assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body class="no-js">
     <header>
@@ -25,6 +33,7 @@
                 <li><a href="../categories/puzzle.html">Puzzle Games</a></li>
                 <li><a href="../categories/strategy.html">Strategy Games</a></li>
                 <li><a href="../categories/rpg.html">Role Playing</a></li>
+                <li><a href="../categories/sports.html" class="active">Sports Games</a></li>
                 <li><a href="../about.html">About Us</a></li>
             </ul>
         </nav>
@@ -32,61 +41,117 @@
 
     <main>
         <div class="game-container">
-            <div class="game-title">
+            <div class="game-details">
                 <h1>Foot Battle Ball</h1>
-            </div>
-            
-            <div class="game-frame-container">
-                <iframe src="https://www.crazygames.com/embed/foot-battle-ball" frameborder="0" scrolling="no" allowfullscreen class="game-frame" allow="gamepad *;"></iframe>
-                <div class="loading-indicator">
-                    <div class="spinner"></div>
-                    <p>Loading Game...</p>
+                <div class="game-meta-info">
+                    <span class="category">Sports</span>
+                    <span class="rating">★★★★☆</span>
+                    <div class="share-container">
+                        <span>Share: </span>
+                        <div class="share-icons">
+                            <a href="https://twitter.com/intent/tweet?url=https://neoarcade.com/games/foot-battle-ball.html&text=Check out this fun Foot Battle Ball soccer game!" target="_blank" class="share-icon twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://neoarcade.com/games/foot-battle-ball.html" target="_blank" class="share-icon facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://neoarcade.com/games/foot-battle-ball.html" target="_blank" class="share-icon linkedin"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://pinterest.com/pin/create/button/?url=https://neoarcade.com/games/foot-battle-ball.html&media=https://neoarcade.com/assets/images/games/foot-battle-ball.jpg&description=Foot Battle Ball" target="_blank" class="share-icon pinterest"><i class="fab fa-pinterest"></i></a>
+                            <a href="https://api.whatsapp.com/send?text=Check out this fun Foot Battle Ball soccer game! https://neoarcade.com/games/foot-battle-ball.html" target="_blank" class="share-icon whatsapp"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#" class="share-icon copy-link" data-url="https://neoarcade.com/games/foot-battle-ball.html"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
             
-            <div class="game-controls">
-                <button class="control-btn fullscreen-btn"><i class="fas fa-expand"></i> Fullscreen</button>
-                <button class="control-btn restart-btn"><i class="fas fa-redo"></i> Restart</button>
-                <button class="control-btn like-btn"><i class="far fa-heart"></i> <span class="like-count">0</span></button>
+            <div class="game-frame-container">
+                <!-- Game iframe -->
+                <iframe src="https://www.crazygames.com/embed/foot-battle-ball" 
+                        width="100%" height="600" 
+                        frameborder="0" 
+                        allow="gamepad *; fullscreen *; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                        id="game-frame"></iframe>
+                
+                <!-- Game control buttons -->
+                <div class="game-controls">
+                    <button class="control-btn fullscreen-btn"><i class="fas fa-expand"></i> Fullscreen</button>
+                    <button class="control-btn restart-btn"><i class="fas fa-redo"></i> Restart</button>
+                    <button class="control-btn like-btn"><i class="fas fa-heart"></i> <span class="like-count">94</span></button>
+                </div>
             </div>
             
             <div class="game-description">
                 <h2>About Foot Battle Ball</h2>
-                <p>Foot Battle Ball is an exciting soccer game with a twist! Choose from a variety of unique characters, each with their own special abilities and stats. Compete in fast-paced matches against AI opponents or challenge your friends in local multiplayer mode. Use power-ups, special moves, and strategic gameplay to score goals and win matches!</p>
+                <p>Foot Battle Ball is an exciting arcade-style soccer game that puts a fun twist on the traditional sport. Choose from a roster of unique characters, each with their own special abilities and playing styles, and compete in fast-paced matches against AI opponents or friends in local multiplayer mode. With intuitive controls, special power moves, and various arenas to play in, this game offers an accessible yet deep soccer experience that's perfect for both casual players and sports game enthusiasts. Score goals, perform spectacular moves, and become the champion in this action-packed soccer battle!</p>
+                
+                <div class="game-screenshot">
+                    <img src="../assets/images/games/foot-battle-ball.jpg" alt="Foot Battle Ball Screenshot">
+                </div>
                 
                 <div class="game-features">
-                    <h3>Features:</h3>
+                    <h3>Features</h3>
                     <ul>
-                        <li>Multiple playable characters with unique abilities and stats</li>
-                        <li>Fast-paced soccer gameplay with power-ups and special moves</li>
-                        <li>Single-player mode against AI opponents of varying difficulty</li>
-                        <li>Local multiplayer mode for playing with friends</li>
+                        <li>Diverse roster of playable characters with unique abilities</li>
+                        <li>Multiple game modes including Tournament, Quick Match, and Practice</li>
+                        <li>Local multiplayer for competitive matches with friends</li>
+                        <li>Special power moves and trick shots</li>
+                        <li>Various arenas with different layouts and challenges</li>
+                        <li>Intuitive controls suitable for all skill levels</li>
+                        <li>Character progression and unlockable content</li>
                         <li>Vibrant graphics and energetic soundtrack</li>
-                        <li>Simple controls that are easy to learn but hard to master</li>
                     </ul>
                 </div>
                 
                 <div class="game-instructions">
-                    <h3>How to Play:</h3>
-                    <p>Use the arrow keys or WASD to move your character. Press the spacebar or Z key to kick the ball. Time your kicks carefully to aim in the direction you want. Collect power-ups that appear on the field to gain advantages like increased speed, stronger kicks, or special abilities. Score more goals than your opponent before time runs out to win the match!</p>
+                    <h3>How to Play</h3>
+                    <p>Use the arrow keys or WASD to move your character around the field. Press the spacebar or Z key to kick the ball when you're near it. Hold the kick button longer for more powerful shots. Press X or the shift key to perform a special move when your power meter is charged. Different characters have different special abilities - some can dash quickly across the field, others can perform powerful shots that are difficult to block, and some have defensive abilities that can steal the ball from opponents. Position yourself strategically on the field to intercept passes and block shots from the opposing team. Learn the strengths and weaknesses of each character to build effective strategies. In tournament mode, win matches to progress through the brackets and unlock new characters and arenas. Practice mode allows you to hone your skills without the pressure of competition. When playing multiplayer, player one uses WASD and Z/X controls, while player two uses arrow keys and N/M controls. Remember that timing is crucial - kicking at the right moment can make the difference between a goal and a missed opportunity.</p>
                 </div>
             </div>
             
-            <div class="related-games">
-                <h2>You May Also Like</h2>
-                <div class="game-grid">
-                    <!-- Related games will be loaded dynamically -->
-                </div>
-            </div>
-            
+            <!-- Comments section -->
             <div class="comments-section">
                 <h2>Comments</h2>
                 <div class="comment-form">
-                    <textarea placeholder="Leave your comment..."></textarea>
+                    <textarea placeholder="Share your thoughts about this game..."></textarea>
                     <button class="cyber-button">Post Comment</button>
                 </div>
                 <div class="comments-list">
-                    <!-- Comments will be loaded dynamically -->
+                    <!-- Example comments -->
+                    <div class="comment">
+                        <div class="comment-avatar">
+                            <img src="../assets/images/avatars/user53.jpg" alt="User Avatar">
+                        </div>
+                        <div class="comment-content">
+                            <div class="comment-header">
+                                <span class="comment-author">SoccerFan22</span>
+                                <span class="comment-date">2023-11-15</span>
+                            </div>
+                            <p>This game is so much fun to play with friends! The character abilities add a great twist to traditional soccer gameplay. My favorite character is Thunder - his lightning kick is perfect for long-range goals that catch the goalkeeper off guard. The Desert Arena is particularly challenging with its sand patches that slow down movement. We've been having weekly tournaments in our dorm, and it gets pretty competitive! The only improvement I'd suggest is adding online multiplayer in a future update. Pro tip: try to charge your special meter early in the match by performing successful passes and tackles, then save it for a crucial moment when the opposing team least expects it.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="comment">
+                        <div class="comment-avatar">
+                            <img src="../assets/images/avatars/user54.jpg" alt="User Avatar">
+                        </div>
+                        <div class="comment-content">
+                            <div class="comment-header">
+                                <span class="comment-author">CasualGamer42</span>
+                                <span class="comment-date">2023-11-10</span>
+                            </div>
+                            <p>I'm not usually a big sports game fan, but the arcade style and special abilities in this one won me over! It reminds me of old-school sports games that focused on fun rather than simulation. The controls are simple enough that I could jump right in, but there's enough depth to keep it interesting after many matches. I appreciate that the AI opponents in single-player mode have different difficulty levels - it allowed me to practice and improve gradually. The character designs are really creative too. Ninja is definitely overpowered though - that teleport ability can be hard to defend against! Overall, it's a great game for quick play sessions when you have a few minutes to spare.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="comment">
+                        <div class="comment-avatar">
+                            <img src="../assets/images/avatars/user55.jpg" alt="User Avatar">
+                        </div>
+                        <div class="comment-content">
+                            <div class="comment-header">
+                                <span class="comment-author">GameCoach</span>
+                                <span class="comment-date">2023-11-05</span>
+                            </div>
+                            <p>As someone who coaches youth soccer, I've actually recommended this game to my players as a fun way to think about positioning and strategy. While it's obviously not realistic soccer, the core principles of creating space, passing to open teammates, and defending as a unit still apply. The kids love the special abilities and colorful characters, and it's been a great way to get some of my less enthusiastic players more interested in the sport. From a gameplay perspective, I find the balance between characters is pretty good - each has strengths and weaknesses that create interesting matchups. The Ice Arena adds a nice tactical element with its slippery surface that affects ball movement. If you're struggling with the tournament mode, try focusing on defense first and counter-attacking when your opponent overcommits.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -118,6 +183,7 @@
                     <li><a href="../categories/simulation.html">Simulation Games</a></li>
                     <li><a href="../categories/casual.html">Casual Games</a></li>
                     <li><a href="../categories/adventure.html">Adventure Games</a></li>
+                    <li><a href="../categories/sports.html">Sports Games</a></li>
                     <li><a href="../categories/idle.html">Idle Games</a></li>
                 </ul>
             </div>
@@ -137,14 +203,6 @@
 
     <script src="../assets/js/main.js"></script>
     <script src="../assets/js/game-page.js"></script>
-    <script src="../assets/js/mobile-fullscreen.js"></script>
-    <script src="../assets/js/lazy-load.js"></script>
-    <script>
-        // 加载相关游戏
-        loadRelatedGames();
-        
-        // 设置评论系统
-        setupCommentSystem();
-    </script>
+    <script src="../assets/js/share.js"></script>
 </body>
 </html> 
