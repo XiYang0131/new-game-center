@@ -179,98 +179,66 @@ function loadGameData() {
         {
             title: 'Park Town',
             image: 'assets/images/games/park-town.jpg',
-            description: 'Build and manage your own town in this engaging simulation game. Construct buildings, manage resources, and watch your town flourish!',
+            description: '在这款模拟游戏中建造和管理您自己的城市公园，吸引游客并创造一个繁荣的娱乐场所。',
             category: 'Simulation',
             rating: '★★★★★',
             url: 'games/park-town.html'
         },
         {
-            title: 'Foot Battle Ball',
-            image: 'assets/images/games/foot-battle-ball.jpg',
-            description: 'Compete in exciting soccer matches with unique characters, special abilities, and power-ups in this fun sports game!',
-            category: 'Sports',
-            rating: '★★★★☆',
-            url: 'games/foot-battle-ball.html'
-        },
-        {
             title: 'Screw Out Bolts and Nuts',
             image: 'assets/images/games/screw-out-bolts-and-nuts.jpg',
-            description: 'Unscrew bolts from mechanical contraptions in this relaxing and satisfying puzzle game. Test your problem-solving skills!',
+            description: 'Test your puzzle-solving skills by unscrewing bolts and nuts in this addictive physics-based game with realistic mechanics.',
             category: 'Puzzle',
-            rating: '★★★★★',
+            rating: '★★★★☆',
             url: 'games/screw-out-bolts-and-nuts.html'
         },
         {
-            title: 'Zombie Crusher OOZ',
-            image: 'assets/images/games/zombie-crusher-ooz.jpg',
-            description: 'Take control of powerful vehicles to crush hordes of zombies in this action-packed driving game. Upgrade your vehicles and eliminate the undead!',
-            category: 'Action',
-            rating: '★★★★☆',
-            url: 'games/zombie-crusher-ooz.html'
-        },
-        {
-            title: 'Pizza Car',
-            image: 'assets/images/games/pizza-car.jpg',
-            description: 'Deliver pizzas around the city in this fun driving simulation game. Upgrade your car, beat the clock, and become the best delivery driver!',
-            category: 'Simulation',
-            rating: '★★★★☆',
-            url: 'games/pizza-car.html'
-        },
-        {
-            title: 'Block Wall Destroyer',
-            image: 'assets/images/games/block-wall-destroyer.jpg',
-            description: 'Break through colorful block walls in this addictive arcade game. Aim carefully, bounce strategically, and destroy all blocks to advance!',
+            title: 'Pokey Ball',
+            image: 'assets/images/games/pokey-ball.jpg',
+            description: 'Guide your ball through challenging obstacles and reach the goal in this addictive arcade game with simple controls but challenging gameplay.',
             category: 'Arcade',
             rating: '★★★★☆',
-            url: 'games/block-wall-destroyer.html'
+            url: 'games/pokey-ball.html'
+        },
+        {
+            title: 'Enemania',
+            image: 'assets/images/games/enemania.jpg',
+            description: 'Battle waves of enemies in this action-packed shooter game with multiple weapons, power-ups and challenging boss fights.',
+            category: 'Action',
+            rating: '★★★★★',
+            url: 'games/enemania.html'
         },
         {
             title: 'War Groups',
             image: 'assets/images/games/war-groups.jpg',
-            description: 'Command your troops in this strategic battle game. Deploy different units, manage resources, and outmaneuver your opponents with tactical precision.',
+            description: 'Command your troops in this strategic multiplayer battle game with tactical combat, resource management and multiple factions.',
             category: 'Strategy',
             rating: '★★★★★',
             url: 'games/war-groups.html'
         },
         {
-            title: 'Stronghold Dude',
-            image: 'assets/images/games/stronghold-dude.jpg',
-            description: 'Defend your fortress against waves of enemies in this action-packed defense game. Upgrade your weapons and use strategy to survive!',
-            category: 'Action',
-            rating: '★★★★☆',
-            url: 'games/stronghold-dude.html'
-        },
-        {
-            title: 'Space.io VFT',
-            image: 'assets/images/games/space-io-vft.jpg',
-            description: 'Pilot your spacecraft in this multiplayer space battle game. Upgrade your ship, collect resources, and compete against players worldwide!',
-            category: 'Action',
-            rating: '★★★★★',
-            url: 'games/space-io-vft.html'
-        },
-        {
-            title: 'Money Ping Pong STJ',
-            image: 'assets/images/games/money-ping-pong-stj.jpg',
-            description: 'Compete in exciting ping pong matches and earn virtual money to upgrade your equipment. Test your skills against various opponents!',
-            category: 'Sports',
-            rating: '★★★★☆',
-            url: 'games/money-ping-pong-stj.html'
-        },
-        {
-            title: 'Hoop Rivals OUD',
-            image: 'assets/images/games/hoop-rivals-oud.jpg',
-            description: 'Compete in fast-paced basketball matches against rivals. Show off your skills, perform spectacular dunks, and become the champion!',
-            category: 'Sports',
-            rating: '★★★★★',
-            url: 'games/hoop-rivals-oud.html'
-        },
-        {
             title: 'Aidan in Danger',
             image: 'assets/images/games/aidan-in-danger.jpg',
-            description: 'Help Aidan navigate through dangerous environments filled with obstacles and enemies. Solve puzzles and collect items in this thrilling adventure!',
+            description: 'Help Aidan navigate through dangerous environments, solve puzzles and escape from perilous situations in this exciting adventure game.',
             category: 'Adventure',
             rating: '★★★★☆',
             url: 'games/aidan-in-danger.html'
+        },
+        {
+            title: 'Block Wall Destroyer',
+            image: 'assets/images/games/block-wall-destroyer.jpg',
+            description: 'Break through walls of colorful blocks in this addictive arcade game with simple controls, power-ups and challenging levels.',
+            category: 'Arcade',
+            rating: '★★★★☆',
+            url: 'games/block-wall-destroyer.html'
+        },
+        {
+            title: 'Stronghold Dude',
+            image: 'assets/images/games/stronghold-dude.jpg',
+            description: 'Defend your castle against waves of enemies in this strategic defense game with tower building, resource management and diverse enemy types.',
+            category: 'Strategy',
+            rating: '★★★★★',
+            url: 'games/stronghold-dude.html'
         }
     ];
     
@@ -304,8 +272,7 @@ function loadGameData() {
         'Simulation': 7,
         'Casual': 8,
         'Adventure': 9,
-        'Idle': 10,
-        'Sports': 11  // 添加新分类
+        'Idle': 10  // 添加新分类
     };
     
     // 将游戏添加到"All"标签
@@ -348,7 +315,7 @@ function loadGameData() {
     });
 }
 
-// 创建游戏卡片HTML，不使用懒加载
+// 创建游戏卡片HTML
 function createGameCard(game) {
     return `
     <div class="game-card">

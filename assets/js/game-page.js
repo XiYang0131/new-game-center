@@ -65,42 +65,6 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
     }
-
-    // 游戏页面移动端优化
-    const gameContainer = document.querySelector('.game-container');
-    const gameIframe = document.querySelector('.game-container iframe');
-    
-    if (gameContainer && gameIframe) {
-        // 设置iframe高度为容器高度
-        function adjustIframeHeight() {
-            const containerHeight = gameContainer.clientHeight;
-            gameIframe.style.height = `${containerHeight}px`;
-        }
-        
-        // 初始调整和窗口大小变化时调整
-        adjustIframeHeight();
-        window.addEventListener('resize', adjustIframeHeight);
-        
-        // 在移动设备上，添加全屏切换功能
-        if (window.innerWidth <= 768) {
-            const fullscreenButton = document.createElement('button');
-            fullscreenButton.className = 'fullscreen-button';
-            fullscreenButton.innerHTML = '<i class="fas fa-expand"></i>';
-            fullscreenButton.title = 'Toggle Fullscreen';
-            
-            gameContainer.appendChild(fullscreenButton);
-            
-            fullscreenButton.addEventListener('click', function() {
-                if (!document.fullscreenElement) {
-                    gameContainer.requestFullscreen().catch(err => {
-                        console.error(`Error attempting to enable fullscreen: ${err.message}`);
-                    });
-                } else {
-                    document.exitFullscreen();
-                }
-            });
-        }
-    }
 });
 
 // Load related games

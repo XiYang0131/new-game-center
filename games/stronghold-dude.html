@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z9YBZ99MQ7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Z9YBZ99MQ7');
+</script>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content="Play Stronghold Dude online for free on NeoArcade - Defend your fortress against waves of enemies in this action-packed defense game">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Play Stronghold Dude - Defend your castle against waves of enemies in this strategic defense game with tower building and resource management">
     <title>Stronghold Dude - NeoArcade</title>
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/cyberpunk.css">
     <link rel="stylesheet" href="../assets/css/game-page.css">
-    <link rel="stylesheet" href="../assets/css/mobile-fullscreen.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="icon" href="../assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body class="no-js">
     <header>
@@ -23,7 +31,7 @@
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../categories/action.html">Action Games</a></li>
                 <li><a href="../categories/puzzle.html">Puzzle Games</a></li>
-                <li><a href="../categories/strategy.html">Strategy Games</a></li>
+                <li><a href="../categories/strategy.html" class="active">Strategy Games</a></li>
                 <li><a href="../categories/rpg.html">Role Playing</a></li>
                 <li><a href="../about.html">About Us</a></li>
             </ul>
@@ -32,62 +40,117 @@
 
     <main>
         <div class="game-container">
-            <div class="game-title">
+            <div class="game-details">
                 <h1>Stronghold Dude</h1>
-            </div>
-            
-            <div class="game-frame-container">
-                <iframe src="https://www.crazygames.com/embed/stronghold-dude" frameborder="0" scrolling="no" allowfullscreen class="game-frame" allow="gamepad *;"></iframe>
-                <div class="loading-indicator">
-                    <div class="spinner"></div>
-                    <p>Loading Game...</p>
+                <div class="game-meta-info">
+                    <span class="category">Strategy</span>
+                    <span class="rating">★★★★★</span>
+                    <div class="share-container">
+                        <span>Share: </span>
+                        <div class="share-icons">
+                            <a href="https://twitter.com/intent/tweet?url=https://neoarcade.com/games/stronghold-dude.html&text=Check out this strategic Stronghold Dude defense game!" target="_blank" class="share-icon twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://neoarcade.com/games/stronghold-dude.html" target="_blank" class="share-icon facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://neoarcade.com/games/stronghold-dude.html" target="_blank" class="share-icon linkedin"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://pinterest.com/pin/create/button/?url=https://neoarcade.com/games/stronghold-dude.html&media=https://neoarcade.com/assets/images/games/stronghold-dude.jpg&description=Stronghold Dude" target="_blank" class="share-icon pinterest"><i class="fab fa-pinterest"></i></a>
+                            <a href="https://api.whatsapp.com/send?text=Check out this strategic Stronghold Dude defense game! https://neoarcade.com/games/stronghold-dude.html" target="_blank" class="share-icon whatsapp"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#" class="share-icon copy-link" data-url="https://neoarcade.com/games/stronghold-dude.html"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
             
-            <div class="game-controls">
-                <button class="control-btn fullscreen-btn"><i class="fas fa-expand"></i> Fullscreen</button>
-                <button class="control-btn restart-btn"><i class="fas fa-redo"></i> Restart</button>
-                <button class="control-btn like-btn"><i class="far fa-heart"></i> <span class="like-count">0</span></button>
+            <div class="game-frame-container">
+                <!-- Game iframe -->
+                <iframe src="https://www.crazygames.com/embed/stronghold-dude" 
+                        width="100%" height="600" 
+                        frameborder="0" 
+                        allow="gamepad *; fullscreen *; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                        id="game-frame"></iframe>
+                
+                <!-- Game control buttons -->
+                <div class="game-controls">
+                    <button class="control-btn fullscreen-btn"><i class="fas fa-expand"></i> Fullscreen</button>
+                    <button class="control-btn restart-btn"><i class="fas fa-redo"></i> Restart</button>
+                    <button class="control-btn like-btn"><i class="fas fa-heart"></i> <span class="like-count">142</span></button>
+                </div>
             </div>
             
             <div class="game-description">
                 <h2>About Stronghold Dude</h2>
-                <p>Stronghold Dude is an exciting defense game where you must protect your fortress against waves of determined enemies. Take control of a brave defender armed with various weapons and abilities. Strategically position yourself, upgrade your arsenal, and use the environment to your advantage as you face increasingly challenging waves of attackers.</p>
+                <p>Stronghold Dude is a strategic defense game where you must protect your castle from waves of determined enemies. Build and upgrade defensive structures, manage your resources wisely, and deploy special abilities at critical moments to repel the invaders. With a variety of enemy types, each with their own strengths and weaknesses, you'll need to adapt your strategy to survive increasingly difficult waves. Can you hold your ground and become the ultimate defender of the realm?</p>
+                
+                <div class="game-screenshot">
+                    <img src="../assets/images/games/stronghold-dude.jpg" alt="Stronghold Dude Screenshot">
+                </div>
                 
                 <div class="game-features">
-                    <h3>Features:</h3>
+                    <h3>Features</h3>
                     <ul>
-                        <li>Fast-paced defense gameplay with action elements</li>
-                        <li>Multiple weapons and special abilities to unlock</li>
-                        <li>Various enemy types with different attack patterns</li>
-                        <li>Upgrade system to enhance your character's abilities</li>
-                        <li>Challenging boss battles</li>
-                        <li>Dynamic environments with interactive elements</li>
-                        <li>Engaging visuals and sound effects</li>
+                        <li>Multiple defensive structures with unique abilities</li>
+                        <li>Resource management and economy system</li>
+                        <li>Upgrade paths for all buildings and units</li>
+                        <li>Diverse enemy types requiring different counter-strategies</li>
+                        <li>Special abilities and power-ups</li>
+                        <li>Progressive difficulty with boss waves</li>
+                        <li>Multiple maps with different terrain challenges</li>
+                        <li>Achievement system with rewards</li>
                     </ul>
                 </div>
                 
                 <div class="game-instructions">
-                    <h3>How to Play:</h3>
-                    <p>Use the arrow keys or WASD to move your character. Press the spacebar or left mouse button to attack. Defend your stronghold by eliminating enemies before they can breach your defenses. Collect coins from defeated enemies to purchase upgrades between waves. Strategically position yourself to handle multiple enemies at once. Use special abilities (when unlocked) by pressing the corresponding number keys. Watch out for boss enemies that require specific tactics to defeat. Survive as many waves as possible to achieve the highest score!</p>
+                    <h3>How to Play</h3>
+                    <p>Click on available building spots to construct defensive structures. Each structure has a different purpose - towers attack enemies, resource buildings generate gold, and support structures provide buffs to nearby units. Manage your gold carefully, balancing between immediate defense needs and long-term economic growth. Upgrade your structures to increase their effectiveness against stronger enemies. Pay attention to the enemy types in each wave and build appropriate counters - for example, arrow towers are effective against flying units, while cannons work well against armored enemies. Use special abilities when you're overwhelmed or during boss waves. These abilities have cooldowns, so timing is crucial. Between waves, take time to repair damaged structures and plan your strategy for the next attack. Remember that some maps have multiple entry points for enemies, so you'll need to defend all approaches to your stronghold.</p>
                 </div>
             </div>
             
-            <div class="related-games">
-                <h2>You May Also Like</h2>
-                <div class="game-grid">
-                    <!-- Related games will be loaded dynamically -->
-                </div>
-            </div>
-            
+            <!-- Comments section -->
             <div class="comments-section">
                 <h2>Comments</h2>
                 <div class="comment-form">
-                    <textarea placeholder="Leave your comment..."></textarea>
+                    <textarea placeholder="Share your thoughts about this game..."></textarea>
                     <button class="cyber-button">Post Comment</button>
                 </div>
                 <div class="comments-list">
-                    <!-- Comments will be loaded dynamically -->
+                    <!-- Example comments -->
+                    <div class="comment">
+                        <div class="comment-avatar">
+                            <img src="../assets/images/avatars/user23.jpg" alt="User Avatar">
+                        </div>
+                        <div class="comment-content">
+                            <div class="comment-header">
+                                <span class="comment-author">DefenseKing</span>
+                                <span class="comment-date">2023-09-28</span>
+                            </div>
+                            <p>This is one of the best tower defense games I've played in a while! The balance between resource management and tactical placement of defenses is spot on. I found that focusing on economy early (at least 3-4 gold mines) before building too many defensive structures pays off in the later waves. The frost towers are particularly useful for slowing down large groups of enemies, giving your damage towers time to pick them off. Wave 25 with the dragon boss was incredibly challenging - took me several attempts to figure out the right setup!</p>
+                        </div>
+                    </div>
+                    
+                    <div class="comment">
+                        <div class="comment-avatar">
+                            <img src="../assets/images/avatars/user24.jpg" alt="User Avatar">
+                        </div>
+                        <div class="comment-content">
+                            <div class="comment-header">
+                                <span class="comment-author">StrategyGuru</span>
+                                <span class="comment-date">2023-09-22</span>
+                            </div>
+                            <p>The variety of maps really adds to the replay value of this game. Each one requires a different approach and forces you to adapt your strategy. The mountain pass map is my favorite - the narrow pathways make for some satisfying choke points where you can concentrate your firepower. I appreciate that the game doesn't just throw more enemies at you in later waves, but introduces new types with different abilities that require you to think on your feet. The upgrade system is deep enough to be interesting without being overwhelming.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="comment">
+                        <div class="comment-avatar">
+                            <img src="../assets/images/avatars/user25.jpg" alt="User Avatar">
+                        </div>
+                        <div class="comment-content">
+                            <div class="comment-header">
+                                <span class="comment-author">CasualTactician</span>
+                                <span class="comment-date">2023-09-18</span>
+                            </div>
+                            <p>I love how this game lets you experiment with different defensive setups. There's no single "correct" way to play - you can focus on a few powerful towers or build lots of cheaper ones, prioritize slowing enemies down or dealing massive damage, etc. The special abilities add a nice layer of active gameplay to the traditional tower defense formula. The lightning strike is perfect for taking out those pesky healer units that would otherwise make a wave much harder. My only suggestion would be to add a fast-forward button for the early waves once you've played through them a few times.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -120,7 +183,6 @@
                     <li><a href="../categories/casual.html">Casual Games</a></li>
                     <li><a href="../categories/adventure.html">Adventure Games</a></li>
                     <li><a href="../categories/idle.html">Idle Games</a></li>
-                    <li><a href="../categories/sports.html">Sports Games</a></li>
                 </ul>
             </div>
             <div class="footer-social">
@@ -139,14 +201,6 @@
 
     <script src="../assets/js/main.js"></script>
     <script src="../assets/js/game-page.js"></script>
-    <script src="../assets/js/mobile-fullscreen.js"></script>
-    <script src="../assets/js/lazy-load.js"></script>
-    <script>
-        // 加载相关游戏
-        loadRelatedGames();
-        
-        // 设置评论系统
-        setupCommentSystem();
-    </script>
+    <script src="../assets/js/share.js"></script>
 </body>
 </html> 

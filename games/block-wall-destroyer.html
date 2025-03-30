@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z9YBZ99MQ7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Z9YBZ99MQ7');
+</script>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content="Play Block Wall Destroyer online for free on NeoArcade - Break through walls with your ball in this addictive arcade game">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Play Block Wall Destroyer - Break through walls of blocks in this addictive arcade game with simple controls and challenging levels">
     <title>Block Wall Destroyer - NeoArcade</title>
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/cyberpunk.css">
     <link rel="stylesheet" href="../assets/css/game-page.css">
-    <link rel="stylesheet" href="../assets/css/mobile-fullscreen.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="icon" href="../assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body class="no-js">
     <header>
@@ -25,6 +33,7 @@
                 <li><a href="../categories/puzzle.html">Puzzle Games</a></li>
                 <li><a href="../categories/strategy.html">Strategy Games</a></li>
                 <li><a href="../categories/rpg.html">Role Playing</a></li>
+                <li><a href="../categories/arcade.html" class="active">Arcade Games</a></li>
                 <li><a href="../about.html">About Us</a></li>
             </ul>
         </nav>
@@ -32,62 +41,117 @@
 
     <main>
         <div class="game-container">
-            <div class="game-title">
+            <div class="game-details">
                 <h1>Block Wall Destroyer</h1>
-            </div>
-            
-            <div class="game-frame-container">
-                <iframe src="https://www.crazygames.com/embed/block-wall-destroyer" frameborder="0" scrolling="no" allowfullscreen class="game-frame" allow="gamepad *;"></iframe>
-                <div class="loading-indicator">
-                    <div class="spinner"></div>
-                    <p>Loading Game...</p>
+                <div class="game-meta-info">
+                    <span class="category">Arcade</span>
+                    <span class="rating">★★★★☆</span>
+                    <div class="share-container">
+                        <span>Share: </span>
+                        <div class="share-icons">
+                            <a href="https://twitter.com/intent/tweet?url=https://neoarcade.com/games/block-wall-destroyer.html&text=Check out this addictive Block Wall Destroyer game!" target="_blank" class="share-icon twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://neoarcade.com/games/block-wall-destroyer.html" target="_blank" class="share-icon facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://neoarcade.com/games/block-wall-destroyer.html" target="_blank" class="share-icon linkedin"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://pinterest.com/pin/create/button/?url=https://neoarcade.com/games/block-wall-destroyer.html&media=https://neoarcade.com/assets/images/games/block-wall-destroyer.jpg&description=Block Wall Destroyer" target="_blank" class="share-icon pinterest"><i class="fab fa-pinterest"></i></a>
+                            <a href="https://api.whatsapp.com/send?text=Check out this addictive Block Wall Destroyer game! https://neoarcade.com/games/block-wall-destroyer.html" target="_blank" class="share-icon whatsapp"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#" class="share-icon copy-link" data-url="https://neoarcade.com/games/block-wall-destroyer.html"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
             
-            <div class="game-controls">
-                <button class="control-btn fullscreen-btn"><i class="fas fa-expand"></i> Fullscreen</button>
-                <button class="control-btn restart-btn"><i class="fas fa-redo"></i> Restart</button>
-                <button class="control-btn like-btn"><i class="far fa-heart"></i> <span class="like-count">0</span></button>
+            <div class="game-frame-container">
+                <!-- Game iframe -->
+                <iframe src="https://www.crazygames.com/embed/block-wall-destroyer" 
+                        width="100%" height="600" 
+                        frameborder="0" 
+                        allow="gamepad *; fullscreen *; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                        id="game-frame"></iframe>
+                
+                <!-- Game control buttons -->
+                <div class="game-controls">
+                    <button class="control-btn fullscreen-btn"><i class="fas fa-expand"></i> Fullscreen</button>
+                    <button class="control-btn restart-btn"><i class="fas fa-redo"></i> Restart</button>
+                    <button class="control-btn like-btn"><i class="fas fa-heart"></i> <span class="like-count">89</span></button>
+                </div>
             </div>
             
             <div class="game-description">
                 <h2>About Block Wall Destroyer</h2>
-                <p>Block Wall Destroyer is an addictive arcade game where you control a ball to break through colorful block walls. Aim carefully, bounce strategically, and destroy all blocks to advance to the next level. With increasingly challenging layouts, power-ups, and special blocks, this game offers hours of brick-breaking fun!</p>
+                <p>Block Wall Destroyer is an addictive arcade game that challenges you to break through walls of colorful blocks. Launch your ball with precision to destroy as many blocks as possible and clear each level. With simple controls but increasingly challenging levels, this game offers a perfect blend of casual fun and strategic thinking. Time your shots carefully, collect power-ups, and aim for the highest score in this modern take on the classic brick-breaker genre.</p>
+                
+                <div class="game-screenshot">
+                    <img src="../assets/images/games/block-wall-destroyer.jpg" alt="Block Wall Destroyer Screenshot">
+                </div>
                 
                 <div class="game-features">
-                    <h3>Features:</h3>
+                    <h3>Features</h3>
                     <ul>
                         <li>Multiple levels with increasing difficulty</li>
-                        <li>Various types of blocks with different properties</li>
-                        <li>Exciting power-ups to enhance your ball or paddle</li>
-                        <li>Smooth controls and satisfying block-breaking physics</li>
-                        <li>Colorful graphics and engaging sound effects</li>
-                        <li>Score tracking and level progression system</li>
-                        <li>Classic arcade gameplay with modern enhancements</li>
+                        <li>Various block types with different properties</li>
+                        <li>Power-ups that enhance your ball or provide special abilities</li>
+                        <li>Simple and intuitive controls</li>
+                        <li>Colorful and vibrant graphics</li>
+                        <li>Satisfying sound effects</li>
+                        <li>Score tracking and leaderboards</li>
+                        <li>Challenging boss levels</li>
                     </ul>
                 </div>
                 
                 <div class="game-instructions">
-                    <h3>How to Play:</h3>
-                    <p>Use your mouse or touch controls to move the paddle at the bottom of the screen. Launch the ball by clicking or tapping. Keep the ball in play by bouncing it off your paddle. Aim to hit and destroy all the blocks on the screen to complete each level. Some blocks require multiple hits to break, while others have special properties. Collect power-ups that fall from destroyed blocks to gain advantages like multiple balls, a larger paddle, or special ball abilities. Be careful not to let the ball fall below your paddle, or you'll lose a life. Complete all levels to win the game!</p>
+                    <h3>How to Play</h3>
+                    <p>Use your mouse or touch controls to aim and launch the ball. Click and drag to set the direction and power of your shot, then release to fire. Your goal is to destroy all blocks on the screen to advance to the next level. Different colored blocks have different properties - some require multiple hits, some contain power-ups, and some have special effects when destroyed. Collect power-ups to enhance your ball's abilities, such as making it larger, faster, or giving it the ability to pass through blocks. Try to plan your shots to create chain reactions and maximize your score. If you run out of balls, the game is over, so aim carefully and make each shot count. As you progress through levels, the block arrangements become more complex and challenging, requiring more strategic thinking.</p>
                 </div>
             </div>
             
-            <div class="related-games">
-                <h2>You May Also Like</h2>
-                <div class="game-grid">
-                    <!-- Related games will be loaded dynamically -->
-                </div>
-            </div>
-            
+            <!-- Comments section -->
             <div class="comments-section">
                 <h2>Comments</h2>
                 <div class="comment-form">
-                    <textarea placeholder="Leave your comment..."></textarea>
+                    <textarea placeholder="Share your thoughts about this game..."></textarea>
                     <button class="cyber-button">Post Comment</button>
                 </div>
                 <div class="comments-list">
-                    <!-- Comments will be loaded dynamically -->
+                    <!-- Example comments -->
+                    <div class="comment">
+                        <div class="comment-avatar">
+                            <img src="../assets/images/avatars/user20.jpg" alt="User Avatar">
+                        </div>
+                        <div class="comment-content">
+                            <div class="comment-header">
+                                <span class="comment-author">BlockBuster99</span>
+                                <span class="comment-date">2023-09-25</span>
+                            </div>
+                            <p>This game brings back so many memories of playing brick breaker games as a kid, but with modern graphics and cool power-ups! I'm addicted to trying to beat my high score. The multi-ball power-up is definitely my favorite - when you get 3 or 4 balls bouncing around at once, it's so satisfying to watch the blocks shatter. Level 15 is where it really starts to get challenging!</p>
+                        </div>
+                    </div>
+                    
+                    <div class="comment">
+                        <div class="comment-avatar">
+                            <img src="../assets/images/avatars/user21.jpg" alt="User Avatar">
+                        </div>
+                        <div class="comment-content">
+                            <div class="comment-header">
+                                <span class="comment-author">CasualGamerMom</span>
+                                <span class="comment-date">2023-09-20</span>
+                            </div>
+                            <p>Perfect game for quick play sessions when I have a few minutes to spare! The controls are intuitive and responsive, which makes it easy to pick up and play. I appreciate that the difficulty curve is gradual - it gives you time to master the mechanics before throwing the really challenging levels at you. My kids love watching the blocks explode with all the colorful effects. Great job on this one!</p>
+                        </div>
+                    </div>
+                    
+                    <div class="comment">
+                        <div class="comment-avatar">
+                            <img src="../assets/images/avatars/user22.jpg" alt="User Avatar">
+                        </div>
+                        <div class="comment-content">
+                            <div class="comment-header">
+                                <span class="comment-author">ArcadeMaster</span>
+                                <span class="comment-date">2023-09-15</span>
+                            </div>
+                            <p>As someone who's played a lot of brick breaker games, I can say this is one of the better ones out there. The physics feel just right - not too floaty and not too rigid. I like the strategy involved in choosing which blocks to target first. Pro tip: Always aim for the power-up blocks early, especially if they contain the laser or expand abilities. Those can really help clear difficult sections. The boss level at stage 20 was a real challenge - took me several attempts to figure out the pattern!</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -120,7 +184,6 @@
                     <li><a href="../categories/casual.html">Casual Games</a></li>
                     <li><a href="../categories/adventure.html">Adventure Games</a></li>
                     <li><a href="../categories/idle.html">Idle Games</a></li>
-                    <li><a href="../categories/sports.html">Sports Games</a></li>
                 </ul>
             </div>
             <div class="footer-social">
@@ -139,14 +202,6 @@
 
     <script src="../assets/js/main.js"></script>
     <script src="../assets/js/game-page.js"></script>
-    <script src="../assets/js/mobile-fullscreen.js"></script>
-    <script src="../assets/js/lazy-load.js"></script>
-    <script>
-        // 加载相关游戏
-        loadRelatedGames();
-        
-        // 设置评论系统
-        setupCommentSystem();
-    </script>
+    <script src="../assets/js/share.js"></script>
 </body>
 </html> 

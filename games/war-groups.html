@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z9YBZ99MQ7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Z9YBZ99MQ7');
+</script>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content="Play War Groups online for free on NeoArcade - Command your troops in this strategic battle game">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Play War Groups - Command your troops in this strategic multiplayer battle game with tactical combat and resource management">
     <title>War Groups - NeoArcade</title>
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/cyberpunk.css">
     <link rel="stylesheet" href="../assets/css/game-page.css">
-    <link rel="stylesheet" href="../assets/css/mobile-fullscreen.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="icon" href="../assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body class="no-js">
     <header>
@@ -23,7 +31,7 @@
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../categories/action.html">Action Games</a></li>
                 <li><a href="../categories/puzzle.html">Puzzle Games</a></li>
-                <li><a href="../categories/strategy.html">Strategy Games</a></li>
+                <li><a href="../categories/strategy.html" class="active">Strategy Games</a></li>
                 <li><a href="../categories/rpg.html">Role Playing</a></li>
                 <li><a href="../about.html">About Us</a></li>
             </ul>
@@ -32,62 +40,117 @@
 
     <main>
         <div class="game-container">
-            <div class="game-title">
+            <div class="game-details">
                 <h1>War Groups</h1>
-            </div>
-            
-            <div class="game-frame-container">
-                <iframe src="https://www.crazygames.com/embed/war-groups" frameborder="0" scrolling="no" allowfullscreen class="game-frame" allow="gamepad *;"></iframe>
-                <div class="loading-indicator">
-                    <div class="spinner"></div>
-                    <p>Loading Game...</p>
+                <div class="game-meta-info">
+                    <span class="category">Strategy</span>
+                    <span class="rating">★★★★★</span>
+                    <div class="share-container">
+                        <span>Share: </span>
+                        <div class="share-icons">
+                            <a href="https://twitter.com/intent/tweet?url=https://neoarcade.com/games/war-groups.html&text=Check out this strategic War Groups game!" target="_blank" class="share-icon twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://neoarcade.com/games/war-groups.html" target="_blank" class="share-icon facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://neoarcade.com/games/war-groups.html" target="_blank" class="share-icon linkedin"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://pinterest.com/pin/create/button/?url=https://neoarcade.com/games/war-groups.html&media=https://neoarcade.com/assets/images/games/war-groups.jpg&description=War Groups" target="_blank" class="share-icon pinterest"><i class="fab fa-pinterest"></i></a>
+                            <a href="https://api.whatsapp.com/send?text=Check out this strategic War Groups game! https://neoarcade.com/games/war-groups.html" target="_blank" class="share-icon whatsapp"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#" class="share-icon copy-link" data-url="https://neoarcade.com/games/war-groups.html"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
             
-            <div class="game-controls">
-                <button class="control-btn fullscreen-btn"><i class="fas fa-expand"></i> Fullscreen</button>
-                <button class="control-btn restart-btn"><i class="fas fa-redo"></i> Restart</button>
-                <button class="control-btn like-btn"><i class="far fa-heart"></i> <span class="like-count">0</span></button>
+            <div class="game-frame-container">
+                <!-- Game iframe -->
+                <iframe src="https://www.crazygames.com/embed/war-groups" 
+                        width="100%" height="600" 
+                        frameborder="0" 
+                        allow="gamepad *; fullscreen *; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                        id="game-frame"></iframe>
+                
+                <!-- Game control buttons -->
+                <div class="game-controls">
+                    <button class="control-btn fullscreen-btn"><i class="fas fa-expand"></i> Fullscreen</button>
+                    <button class="control-btn restart-btn"><i class="fas fa-redo"></i> Restart</button>
+                    <button class="control-btn like-btn"><i class="fas fa-heart"></i> <span class="like-count">156</span></button>
+                </div>
             </div>
             
             <div class="game-description">
                 <h2>About War Groups</h2>
-                <p>War Groups is an engaging strategy game where you command troops in intense battlefield scenarios. Deploy different unit types, manage resources, and outmaneuver your opponents with tactical precision. With multiple levels, diverse units, and challenging enemies, this game offers a deep strategic experience for military enthusiasts.</p>
+                <p>War Groups is a strategic multiplayer battle game that challenges your tactical thinking and resource management skills. Command your troops across various battlefields, build your base, gather resources, and defeat enemy forces. With a variety of units, buildings, and technologies to research, War Groups offers deep strategic gameplay that rewards careful planning and quick decision-making. Compete against other players or AI opponents in this engaging military strategy game.</p>
+                
+                <div class="game-screenshot">
+                    <img src="../assets/images/games/war-groups.jpg" alt="War Groups Screenshot">
+                </div>
                 
                 <div class="game-features">
-                    <h3>Features:</h3>
+                    <h3>Features</h3>
                     <ul>
-                        <li>Multiple campaign levels with increasing difficulty</li>
-                        <li>Various unit types with unique abilities and strengths</li>
-                        <li>Resource management and strategic deployment</li>
-                        <li>Tactical combat with positioning and timing elements</li>
-                        <li>Upgrade system to enhance your troops</li>
-                        <li>Challenging AI opponents with different tactics</li>
-                        <li>Engaging battlefield visuals and sound effects</li>
+                        <li>Real-time strategic combat with multiple unit types</li>
+                        <li>Base building and resource management</li>
+                        <li>Technology tree with various upgrades and abilities</li>
+                        <li>Multiple factions with unique units and playstyles</li>
+                        <li>PvP and PvE game modes</li>
+                        <li>Ranked matchmaking system</li>
+                        <li>Customizable army compositions</li>
+                        <li>Challenging campaign missions</li>
                     </ul>
                 </div>
                 
                 <div class="game-instructions">
-                    <h3>How to Play:</h3>
-                    <p>Click on your units to select them, then click on the battlefield to move or attack. Manage your resources carefully to deploy new units. Different units have different strengths and weaknesses - infantry are versatile, tanks are powerful but slow, and aircraft provide mobility. Position your units strategically to take advantage of terrain and outflank your enemies. Complete mission objectives to progress through the campaign. Upgrade your units between missions to improve their effectiveness in battle.</p>
+                    <h3>How to Play</h3>
+                    <p>Use your mouse to select units and issue commands. Right-click to move units or attack enemy forces. Build resource collectors to gather materials needed for constructing buildings and training troops. Establish a strong economy before focusing on military production. Scout the map to locate enemy bases and resources. Adapt your strategy based on your opponent's army composition and base layout. Research technologies to unlock more powerful units and abilities. Protect your resource collectors and main base while looking for opportunities to attack enemy weak points. Form alliances with other players in team modes for coordinated attacks. Remember that a balanced army with different unit types is usually more effective than focusing on a single unit type.</p>
                 </div>
             </div>
             
-            <div class="related-games">
-                <h2>You May Also Like</h2>
-                <div class="game-grid">
-                    <!-- Related games will be loaded dynamically -->
-                </div>
-            </div>
-            
+            <!-- Comments section -->
             <div class="comments-section">
                 <h2>Comments</h2>
                 <div class="comment-form">
-                    <textarea placeholder="Leave your comment..."></textarea>
+                    <textarea placeholder="Share your thoughts about this game..."></textarea>
                     <button class="cyber-button">Post Comment</button>
                 </div>
                 <div class="comments-list">
-                    <!-- Comments will be loaded dynamically -->
+                    <!-- Example comments -->
+                    <div class="comment">
+                        <div class="comment-avatar">
+                            <img src="../assets/images/avatars/user15.jpg" alt="User Avatar">
+                        </div>
+                        <div class="comment-content">
+                            <div class="comment-header">
+                                <span class="comment-author">StrategyMaster</span>
+                                <span class="comment-date">2023-09-18</span>
+                            </div>
+                            <p>This game has incredible depth for a browser-based strategy title! I've been playing for weeks and still discovering new tactics. The faction balance is surprisingly good - each has clear strengths and weaknesses. My favorite strategy is rushing tech level 2 with the Eastern Alliance and overwhelming opponents with heavy tanks before they can establish proper defenses.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="comment">
+                        <div class="comment-avatar">
+                            <img src="../assets/images/avatars/user16.jpg" alt="User Avatar">
+                        </div>
+                        <div class="comment-content">
+                            <div class="comment-header">
+                                <span class="comment-author">CommanderElite</span>
+                                <span class="comment-date">2023-09-12</span>
+                            </div>
+                            <p>The multiplayer in this game is addictive! I love the ranked system that matches you with players of similar skill. One tip for beginners: don't neglect your air defenses - a good player will exploit that weakness quickly. Also, the Western Coalition's special ability to call in airstrikes is incredibly powerful if used at the right moment. Looking forward to the new faction they're supposedly adding next month!</p>
+                        </div>
+                    </div>
+                    
+                    <div class="comment">
+                        <div class="comment-avatar">
+                            <img src="../assets/images/avatars/user17.jpg" alt="User Avatar">
+                        </div>
+                        <div class="comment-content">
+                            <div class="comment-header">
+                                <span class="comment-author">TacticalGenius</span>
+                                <span class="comment-date">2023-09-05</span>
+                            </div>
+                            <p>The campaign missions offer a great way to learn the game mechanics before jumping into multiplayer. Mission 7 was particularly challenging - took me several attempts to figure out how to defend against those night raids! I appreciate how the game rewards different playstyles. Whether you prefer aggressive rushing or turtling up with defenses, there's a viable strategy for you. The community is also quite helpful to newcomers.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -120,7 +183,6 @@
                     <li><a href="../categories/casual.html">Casual Games</a></li>
                     <li><a href="../categories/adventure.html">Adventure Games</a></li>
                     <li><a href="../categories/idle.html">Idle Games</a></li>
-                    <li><a href="../categories/sports.html">Sports Games</a></li>
                 </ul>
             </div>
             <div class="footer-social">
@@ -139,14 +201,6 @@
 
     <script src="../assets/js/main.js"></script>
     <script src="../assets/js/game-page.js"></script>
-    <script src="../assets/js/mobile-fullscreen.js"></script>
-    <script src="../assets/js/lazy-load.js"></script>
-    <script>
-        // 加载相关游戏
-        loadRelatedGames();
-        
-        // 设置评论系统
-        setupCommentSystem();
-    </script>
+    <script src="../assets/js/share.js"></script>
 </body>
 </html> 

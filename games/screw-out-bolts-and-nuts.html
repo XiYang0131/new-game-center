@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z9YBZ99MQ7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Z9YBZ99MQ7');
+</script>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content="Play Screw Out Bolts and Nuts online for free on NeoArcade - Test your puzzle-solving skills in this relaxing and satisfying game">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Play Screw Out Bolts and Nuts - Test your puzzle-solving skills by unscrewing bolts and nuts in this addictive physics-based game">
     <title>Screw Out Bolts and Nuts - NeoArcade</title>
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/cyberpunk.css">
     <link rel="stylesheet" href="../assets/css/game-page.css">
-    <link rel="stylesheet" href="../assets/css/mobile-fullscreen.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="icon" href="../assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body class="no-js">
     <header>
@@ -22,7 +30,7 @@
             <ul>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../categories/action.html">Action Games</a></li>
-                <li><a href="../categories/puzzle.html">Puzzle Games</a></li>
+                <li><a href="../categories/puzzle.html" class="active">Puzzle Games</a></li>
                 <li><a href="../categories/strategy.html">Strategy Games</a></li>
                 <li><a href="../categories/rpg.html">Role Playing</a></li>
                 <li><a href="../about.html">About Us</a></li>
@@ -32,61 +40,116 @@
 
     <main>
         <div class="game-container">
-            <div class="game-title">
+            <div class="game-details">
                 <h1>Screw Out Bolts and Nuts</h1>
-            </div>
-            
-            <div class="game-frame-container">
-                <iframe src="https://www.crazygames.com/embed/screw-out-bolts-and-nuts" frameborder="0" scrolling="no" allowfullscreen class="game-frame" allow="gamepad *;"></iframe>
-                <div class="loading-indicator">
-                    <div class="spinner"></div>
-                    <p>Loading Game...</p>
+                <div class="game-meta-info">
+                    <span class="category">Puzzle</span>
+                    <span class="rating">★★★★☆</span>
+                    <div class="share-container">
+                        <span>Share: </span>
+                        <div class="share-icons">
+                            <a href="https://twitter.com/intent/tweet?url=https://neoarcade.com/games/screw-out-bolts-and-nuts.html&text=Check out this challenging Screw Out Bolts and Nuts puzzle game!" target="_blank" class="share-icon twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://neoarcade.com/games/screw-out-bolts-and-nuts.html" target="_blank" class="share-icon facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://neoarcade.com/games/screw-out-bolts-and-nuts.html" target="_blank" class="share-icon linkedin"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://pinterest.com/pin/create/button/?url=https://neoarcade.com/games/screw-out-bolts-and-nuts.html&media=https://neoarcade.com/assets/images/games/screw-out-bolts-and-nuts.jpg&description=Screw Out Bolts and Nuts" target="_blank" class="share-icon pinterest"><i class="fab fa-pinterest"></i></a>
+                            <a href="https://api.whatsapp.com/send?text=Check out this challenging Screw Out Bolts and Nuts puzzle game! https://neoarcade.com/games/screw-out-bolts-and-nuts.html" target="_blank" class="share-icon whatsapp"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#" class="share-icon copy-link" data-url="https://neoarcade.com/games/screw-out-bolts-and-nuts.html"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
             
-            <div class="game-controls">
-                <button class="control-btn fullscreen-btn"><i class="fas fa-expand"></i> Fullscreen</button>
-                <button class="control-btn restart-btn"><i class="fas fa-redo"></i> Restart</button>
-                <button class="control-btn like-btn"><i class="far fa-heart"></i> <span class="like-count">0</span></button>
+            <div class="game-frame-container">
+                <!-- Game iframe -->
+                <iframe src="https://www.crazygames.com/embed/screw-out-bolts-and-nuts" 
+                        width="100%" height="600" 
+                        frameborder="0" 
+                        allow="gamepad *; fullscreen *; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                        id="game-frame"></iframe>
+                
+                <!-- Game control buttons -->
+                <div class="game-controls">
+                    <button class="control-btn fullscreen-btn"><i class="fas fa-expand"></i> Fullscreen</button>
+                    <button class="control-btn restart-btn"><i class="fas fa-redo"></i> Restart</button>
+                    <button class="control-btn like-btn"><i class="fas fa-heart"></i> <span class="like-count">87</span></button>
+                </div>
             </div>
             
             <div class="game-description">
                 <h2>About Screw Out Bolts and Nuts</h2>
-                <p>Screw Out Bolts and Nuts is a relaxing and satisfying puzzle game where you need to unscrew bolts from various mechanical contraptions. Test your problem-solving skills as you figure out the correct order and method to remove each bolt. With increasingly complex mechanisms and challenges, this game offers a perfect blend of casual gameplay and brain-teasing puzzles.</p>
+                <p>Screw Out Bolts and Nuts is an engaging physics-based puzzle game that challenges your spatial reasoning and problem-solving skills. In this game, you need to carefully unscrew bolts and nuts from various contraptions without letting them fall into the wrong places. Each level presents a unique challenge with increasing complexity, requiring you to think strategically about the order and direction in which you remove each piece.</p>
+                
+                <div class="game-screenshot">
+                    <img src="../assets/images/games/screw-out-bolts-and-nuts.jpg" alt="Screw Out Bolts and Nuts Screenshot">
+                </div>
                 
                 <div class="game-features">
-                    <h3>Features:</h3>
+                    <h3>Features</h3>
                     <ul>
-                        <li>Dozens of unique levels with increasing difficulty</li>
-                        <li>Realistic physics and satisfying unscrewing mechanics</li>
-                        <li>Various types of bolts, nuts, and mechanical parts to interact with</li>
-                        <li>Relaxing gameplay with no time pressure</li>
-                        <li>Intuitive controls that are easy to learn</li>
-                        <li>Calming background music and satisfying sound effects</li>
+                        <li>Dozens of challenging levels with progressive difficulty</li>
+                        <li>Realistic physics simulation for authentic unscrewing mechanics</li>
+                        <li>Various types of bolts, nuts, and contraptions to solve</li>
+                        <li>Intuitive touch and mouse controls</li>
+                        <li>Time-based challenges for additional replay value</li>
+                        <li>Relaxing gameplay with no time pressure on regular levels</li>
+                        <li>Satisfying visual and sound effects when successfully completing a level</li>
                     </ul>
                 </div>
                 
                 <div class="game-instructions">
-                    <h3>How to Play:</h3>
-                    <p>Click and hold on a bolt, then rotate your mouse or finger (on touch devices) to unscrew it. Some bolts may require you to remove other parts first before they can be accessed. Pay attention to the structure of each mechanism to determine the correct order of removal. The goal is to remove all bolts and disassemble the contraption completely. If you get stuck, try looking for bolts that aren't blocked by other parts.</p>
+                    <h3>How to Play</h3>
+                    <p>Use your mouse to interact with the bolts and nuts. Click and hold on a bolt or nut, then rotate your mouse in the appropriate direction to unscrew it. Pay close attention to the threading direction - some bolts require clockwise rotation while others need counter-clockwise rotation to loosen. Be careful not to let pieces fall into restricted areas or the level will fail. Plan your approach carefully, as the order in which you remove pieces can significantly impact the difficulty. Some levels have special mechanics like gravity shifts or moving platforms that add extra challenge. Take your time to analyze each puzzle before making your first move!</p>
                 </div>
             </div>
             
-            <div class="related-games">
-                <h2>You May Also Like</h2>
-                <div class="game-grid">
-                    <!-- Related games will be loaded dynamically -->
-                </div>
-            </div>
-            
+            <!-- Comments section -->
             <div class="comments-section">
                 <h2>Comments</h2>
                 <div class="comment-form">
-                    <textarea placeholder="Leave your comment..."></textarea>
+                    <textarea placeholder="Share your thoughts about this game..."></textarea>
                     <button class="cyber-button">Post Comment</button>
                 </div>
                 <div class="comments-list">
-                    <!-- Comments will be loaded dynamically -->
+                    <!-- Example comments -->
+                    <div class="comment">
+                        <div class="comment-avatar">
+                            <img src="../assets/images/avatars/user5.jpg" alt="User Avatar">
+                        </div>
+                        <div class="comment-content">
+                            <div class="comment-header">
+                                <span class="comment-author">MechanicWhiz</span>
+                                <span class="comment-date">2023-08-12</span>
+                            </div>
+                            <p>As someone who works with tools daily, I found this game surprisingly accurate in terms of physics! The way you need to carefully unscrew each bolt feels very realistic. Level 15 was particularly challenging with the rotating platform. Took me several attempts to figure out the right sequence.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="comment">
+                        <div class="comment-avatar">
+                            <img src="../assets/images/avatars/user8.jpg" alt="User Avatar">
+                        </div>
+                        <div class="comment-content">
+                            <div class="comment-header">
+                                <span class="comment-author">PuzzleMaster99</span>
+                                <span class="comment-date">2023-08-05</span>
+                            </div>
+                            <p>This game is deceptively simple but gets really challenging in later levels! I love how it makes you think about physics and the consequences of each action. The sound design is also excellent - that satisfying click when you successfully remove a bolt is so rewarding. Highly recommend for anyone who enjoys brain teasers.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="comment">
+                        <div class="comment-avatar">
+                            <img src="../assets/images/avatars/user12.jpg" alt="User Avatar">
+                        </div>
+                        <div class="comment-content">
+                            <div class="comment-header">
+                                <span class="comment-author">CasualGamerMom</span>
+                                <span class="comment-date">2023-07-28</span>
+                            </div>
+                            <p>I've been playing this with my kids and it's been a great way to teach them about basic mechanics and problem-solving. The controls are intuitive enough that even my 8-year-old can play, but the puzzles are challenging enough to keep me engaged too. Would love to see more levels added in future updates!</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -119,7 +182,6 @@
                     <li><a href="../categories/casual.html">Casual Games</a></li>
                     <li><a href="../categories/adventure.html">Adventure Games</a></li>
                     <li><a href="../categories/idle.html">Idle Games</a></li>
-                    <li><a href="../categories/sports.html">Sports Games</a></li>
                 </ul>
             </div>
             <div class="footer-social">
@@ -138,14 +200,6 @@
 
     <script src="../assets/js/main.js"></script>
     <script src="../assets/js/game-page.js"></script>
-    <script src="../assets/js/mobile-fullscreen.js"></script>
-    <script src="../assets/js/lazy-load.js"></script>
-    <script>
-        // 加载相关游戏
-        loadRelatedGames();
-        
-        // 设置评论系统
-        setupCommentSystem();
-    </script>
+    <script src="../assets/js/share.js"></script>
 </body>
 </html> 
