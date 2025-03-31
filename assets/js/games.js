@@ -407,6 +407,22 @@ function loadGameData() {
             category: 'RPG',
             rating: '★★★★★',
             url: 'games/autorpg-arena-fbu.html'
+        },
+        {
+            title: 'Two Sides of Hell Portable Edition UNN',
+            image: 'assets/images/games/two-sides-of-hell-portable-edition-unn.jpg',
+            description: 'Navigate between heaven and hell in this challenging platformer with unique dual-world mechanics, precise controls, and stunning visual contrasts.',
+            category: 'Action',
+            rating: '★★★★★',
+            url: 'games/two-sides-of-hell-portable-edition-unn.html'
+        },
+        {
+            title: 'Craft and Battle',
+            image: 'assets/images/games/craft-and-battle.jpg',
+            description: 'Gather resources, craft weapons, and battle other players in this exciting multiplayer survival game with extensive crafting and base building.',
+            category: 'Action',
+            rating: '★★★★★',
+            url: 'games/craft-and-battle.html'
         }
     ];
     
