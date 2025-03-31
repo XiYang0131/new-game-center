@@ -423,6 +423,46 @@ function loadGameData() {
             category: 'Action',
             rating: '★★★★★',
             url: 'games/craft-and-battle.html'
+        },
+        {
+            title: 'Aces of the Sky Epic Dogfights',
+            image: 'assets/images/games/aces-of-the-sky-epic-dogfights.jpg',
+            description: 'Experience thrilling aerial combat in this action-packed flight simulator with stunning visuals, multiple aircraft to unlock, and intense dogfights against intelligent opponents.',
+            category: 'Action',
+            rating: '★★★★★',
+            url: 'games/aces-of-the-sky-epic-dogfights.html'
+        },
+        {
+            title: 'Idle Craft Drill',
+            image: 'assets/images/games/idle-craft-drill.jpg',
+            description: 'Mine resources, upgrade your equipment, and build an underground mining empire in this addictive idle game with strategic resource management and offline progression.',
+            category: 'Idle',
+            rating: '★★★★☆',
+            url: 'games/idle-craft-drill.html'
+        },
+        {
+            title: 'Murder',
+            image: 'assets/images/games/murder.jpg',
+            description: 'Play as a detective, investigate murder cases, collect clues, analyze evidence, and find the killer in this engaging puzzle game that challenges your logical thinking and observation skills.',
+            category: 'Puzzle',
+            rating: '★★★★★',
+            url: 'games/murder.html'
+        },
+        {
+            title: 'Real Fishing Simulator',
+            image: 'assets/images/games/real-fishing-simulator.jpg',
+            description: 'Experience the thrill of fishing in various beautiful locations with realistic mechanics, diverse fish species, and upgradeable equipment in this immersive simulation game.',
+            category: 'Simulation',
+            rating: '★★★★☆',
+            url: 'games/real-fishing-simulator.html'
+        },
+        {
+            title: 'Machine Room Escape',
+            image: 'assets/images/games/machine-room-escape.jpg',
+            description: 'Solve challenging puzzles and find hidden clues to escape from a mysterious machine room in this immersive point-and-click escape game that tests your observation and logical thinking.',
+            category: 'Puzzle',
+            rating: '★★★★☆',
+            url: 'games/machine-room-escape.html'
         }
     ];
     
