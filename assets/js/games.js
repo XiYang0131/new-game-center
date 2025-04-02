@@ -241,12 +241,12 @@ function loadGameData() {
             url: 'games/stronghold-dude.html'
         },
         {
-            title: 'Space.io VFT',
-            image: 'assets/images/games/space-io-vft.jpg',
-            description: 'Battle other players in this multiplayer space shooter with upgradeable ships, resource collection and intense combat.',
+            title: 'Space Waves',
+            image: 'assets/images/games/space-waves.jpg',
+            description: 'Navigate through cosmic waves, dodge obstacles, and collect power-ups in this fast-paced arcade game with vibrant visuals and music-synchronized gameplay.',
             category: 'Action',
-            rating: '★★★★★',
-            url: 'games/space-io-vft.html'
+            rating: '★★★★☆',
+            url: 'games/space-waves.html'
         },
         {
             title: 'Hoop Rivals OUD',
@@ -441,12 +441,12 @@ function loadGameData() {
             url: 'games/idle-craft-drill.html'
         },
         {
-            title: 'Murder',
-            image: 'assets/images/games/murder.jpg',
-            description: 'Play as a detective, investigate murder cases, collect clues, analyze evidence, and find the killer in this engaging puzzle game that challenges your logical thinking and observation skills.',
+            title: 'Murder Mafia',
+            image: 'assets/images/games/murder-mafia.jpg',
+            description: 'Step into the shoes of a detective to solve complex murder cases, collect evidence, interrogate suspects, and unmask the mafia in this engaging mystery game.',
             category: 'Puzzle',
-            rating: '★★★★★',
-            url: 'games/murder.html'
+            rating: '★★★★☆',
+            url: 'games/murder-mafia.html'
         },
         {
             title: 'Real Fishing Simulator',
@@ -463,6 +463,294 @@ function loadGameData() {
             category: 'Puzzle',
             rating: '★★★★☆',
             url: 'games/machine-room-escape.html'
+        },
+        {
+            title: 'Playground',
+            image: 'assets/images/games/playground.jpg',
+            description: 'Explore this creative virtual playground, experience various fun interactive elements and mini-games, and enjoy a relaxing gaming experience without pressure or complicated rules.',
+            category: 'Casual',
+            rating: '★★★★☆',
+            url: 'games/playground.html'
+        },
+        {
+            title: 'Miniblox',
+            image: 'assets/images/games/miniblox.jpg',
+            description: 'Build and create in this colorful block-based sandbox game with simple controls, various block types, and endless creative possibilities for players of all ages.',
+            category: 'Casual',
+            rating: '★★★★☆',
+            url: 'games/miniblox.html'
+        },
+        {
+            title: 'Puzzles on the Go',
+            image: 'assets/images/games/puzzlesonthego.jpg',
+            description: 'Challenge your brain with a variety of engaging puzzles including word searches, crosswords, sudoku, and more. Perfect for quick mental exercise sessions anywhere, anytime.',
+            category: 'Puzzle',
+            rating: '★★★★☆',
+            url: 'games/puzzlesonthego.html'
+        },
+        {
+            title: 'Treasure Champion - Chest Capture',
+            image: 'assets/images/games/treasure-champion-chest-capture.jpg',
+            description: 'Compete against other players to collect treasures and become the ultimate champion in this exciting multiplayer action game with various maps and power-ups.',
+            category: 'Action',
+            rating: '★★★★☆',
+            url: 'games/treasure-champion-chest-capture.html'
+        },
+        {
+            title: 'Blitzkrieg Assault War Zone',
+            image: 'assets/images/games/blitzkrieg-assault-war-zone.jpg',
+            description: 'Command your troops in intense tactical battles across various war zones in this strategic military combat game with realistic mechanics and deep gameplay.',
+            category: 'Strategy',
+            rating: '★★★★★',
+            url: 'games/blitzkrieg-assault-war-zone.html'
+        },
+        {
+            title: 'Rise of the Blobs EHK',
+            image: 'assets/images/games/rise-of-the-blobs-ehk.jpg',
+            description: 'Match colorful blobs and prevent them from rising too high in this addictive puzzle game with vibrant visuals, special power-ups, and challenging gameplay.',
+            category: 'Puzzle',
+            rating: '★★★★☆',
+            url: 'games/rise-of-the-blobs-ehk.html'
+        },
+        {
+            title: 'Super Utilizer',
+            image: 'assets/images/games/super-utilizer.jpg',
+            description: 'Manage resources, build defensive structures, and fend off waves of enemies in this strategic tower defense game with multiple upgrade paths and challenging gameplay.',
+            category: 'Strategy',
+            rating: '★★★★☆',
+            url: 'games/super-utilizer.html'
+        },
+        {
+            title: 'Sneaker Art RVF',
+            image: 'assets/images/games/sneaker-art-rvf.jpg',
+            description: 'Design and customize your own sneakers in this creative and relaxing art game with multiple models, extensive color options, and various materials to create unique footwear designs.',
+            category: 'Casual',
+            rating: '★★★★☆',
+            url: 'games/sneaker-art-rvf.html'
+        },
+        {
+            title: 'Cubecraft Merge Battle UXW',
+            image: 'assets/images/games/cubecraft-merge-battle-uxw.jpg',
+            description: 'Merge identical cubes to create stronger units, build your army, and battle opponents in this strategic merge game with colorful voxel graphics and addictive gameplay.',
+            category: 'Strategy',
+            rating: '★★★★☆',
+            url: 'games/cubecraft-merge-battle-uxw.html'
+        },
+        {
+            title: 'Goblin Punk Tower Defense',
+            image: 'assets/images/games/goblin-punk-tower-defense.jpg',
+            description: 'Defend your territory against waves of rebellious goblins in this punk-themed tower defense game with unique towers, upgrade systems, and strategic gameplay.',
+            category: 'Strategy',
+            rating: '★★★★☆',
+            url: 'games/goblin-punk-tower-defense.html'
+        },
+        {
+            title: 'Dogs vs Aliens',
+            image: 'assets/images/games/dogs-vs-aliens.jpg',
+            description: 'Command a team of heroic dogs with unique abilities to defend Earth against waves of alien invaders in this charming and strategic tower defense game.',
+            category: 'Strategy',
+            rating: '★★★★☆',
+            url: 'games/dogs-vs-aliens.html'
+        },
+        {
+            title: 'Lime Playground Sandbox',
+            image: 'assets/images/games/lime-playground-sandbox.jpg',
+            description: 'Explore, create, and experiment in this open-world sandbox game with realistic physics, various building materials, and endless possibilities for creativity.',
+            category: 'Casual',
+            rating: '★★★★☆',
+            url: 'games/lime-playground-sandbox.html'
+        },
+        {
+            title: 'Robox',
+            image: 'assets/images/games/robox.jpg',
+            description: 'Guide your robot through challenging mechanical puzzles, unlock new abilities, and overcome obstacles in this engaging puzzle platformer with charming minimalist visuals.',
+            category: 'Puzzle',
+            rating: '★★★★☆',
+            url: 'games/robox.html'
+        },
+        {
+            title: 'War Sea',
+            image: 'assets/images/games/war-sea.jpg',
+            description: 'Command a fleet of warships in intense naval battles, deploy strategic weapons, and dominate the seas in this action-packed warfare game with realistic combat mechanics.',
+            category: 'Action',
+            rating: '★★★★☆',
+            url: 'games/war-sea.html'
+        },
+        {
+            title: 'Knight Hero Adventure Idle RPG',
+            image: 'assets/images/games/knight-hero-adventure-idle-rpg.jpg',
+            description: 'Embark on an epic journey as a brave knight, upgrade equipment, learn skills, and battle monsters in this engaging idle RPG with continuous progression.',
+            category: 'RPG',
+            rating: '★★★★☆',
+            url: 'games/knight-hero-adventure-idle-rpg.html'
+        },
+        {
+            title: 'Favorite Puzzles',
+            image: 'assets/images/games/favorite-puzzles.jpg',
+            description: 'Enjoy a diverse collection of classic and modern puzzles including jigsaw, sliding, matching, and logic challenges with multiple difficulty levels and beautiful visuals.',
+            category: 'Puzzle',
+            rating: '★★★★☆',
+            url: 'games/favorite-puzzles.html'
+        },
+        {
+            title: 'Bullet Force Multiplayer',
+            image: 'assets/images/games/bullet-force-multiplayer.jpg',
+            description: 'Engage in intense first-person shooter battles with players worldwide, customize your loadout with various weapons and attachments, and dominate multiple game modes.',
+            category: 'Action',
+            rating: '★★★★★',
+            url: 'games/bullet-force-multiplayer.html'
+        },
+        {
+            title: 'Shell Shockers.io',
+            image: 'assets/images/games/shellshockersio.jpg',
+            description: 'Battle as egg characters in this hilarious yet intense first-person shooter with unique egg classes, various game modes, and fast-paced multiplayer action.',
+            category: 'Action',
+            rating: '★★★★★',
+            url: 'games/shellshockersio.html'
+        },
+        {
+            title: 'Heroes of the Wasteland',
+            image: 'assets/images/games/heroes-of-the-wasteland.jpg',
+            description: 'Survive in a post-apocalyptic world by scavenging resources, battling mutants, crafting equipment, and building your base in this immersive action survival game.',
+            category: 'Action',
+            rating: '★★★★☆',
+            url: 'games/heroes-of-the-wasteland.html'
+        },
+        {
+            title: 'Cursed Treasure 11-2',
+            image: 'assets/images/games/cursed-treasure-11-2.jpg',
+            description: 'Defend your precious gems from waves of heroic adventurers in this strategic tower defense game with three unique tower types, upgradeable abilities, and challenging levels.',
+            category: 'Strategy',
+            rating: '★★★★★',
+            url: 'games/cursed-treasure-11-2.html'
+        },
+        {
+            title: 'Cursed Treasure Level Pack',
+            image: 'assets/images/games/cursed-treasure-level-pack.jpg',
+            description: 'Experience new challenging levels in this tower defense expansion where you continue to protect your gems from heroic adventurers with three unique tower types and special abilities.',
+            category: 'Strategy',
+            rating: '★★★★★',
+            url: 'games/cursed-treasure-level-pack.html'
+        },
+        {
+            title: 'Super Oliver World',
+            image: 'assets/images/games/super-oliver-world.jpg',
+            description: 'Join Oliver on a colorful platforming adventure as he jumps, collects coins, and defeats enemies across multiple vibrant worlds in this classic-style platformer game.',
+            category: 'Adventure',
+            rating: '★★★★☆',
+            url: 'games/super-oliver-world.html'
+        },
+        {
+            title: 'Country Life Meadows',
+            image: 'assets/images/games/country-life-meadows.jpg',
+            description: 'Build and manage your own farm, grow crops, raise animals, and create a thriving rural paradise in this relaxing simulation game with seasonal changes and customization options.',
+            category: 'Simulation',
+            rating: '★★★★☆',
+            url: 'games/country-life-meadows.html'
+        },
+        {
+            title: 'Tower vs Goblins',
+            image: 'assets/images/games/tower-vs-goblins.jpg',
+            description: 'Defend your kingdom against waves of goblin invaders by strategically placing and upgrading various towers in this challenging tower defense game with diverse enemies and tactics.',
+            category: 'Strategy',
+            rating: '★★★★☆',
+            url: 'games/tower-vs-goblins.html'
+        },
+        {
+            title: 'Evowars.io',
+            image: 'assets/images/games/evowarsio.jpg',
+            description: 'Battle other players in this fast-paced multiplayer arena game where you evolve your character by collecting orbs and defeating opponents to dominate the battlefield.',
+            category: 'Action',
+            rating: '★★★★☆',
+            url: 'games/evowarsio.html'
+        },
+        {
+            title: 'Supermarket Simulator Cashier Game',
+            image: 'assets/images/games/supermarket-simulator-cashier-game.jpg',
+            description: 'Experience the life of a supermarket cashier as you scan items, handle different payment methods, and serve various customers in this realistic retail simulation game.',
+            category: 'Simulation',
+            rating: '★★★★☆',
+            url: 'games/supermarket-simulator-cashier-game.html'
+        },
+        {
+            title: 'Match Ventures',
+            image: 'assets/images/games/matchventures.jpg',
+            description: 'Embark on an adventure-filled match-3 puzzle game where you solve increasingly challenging puzzles, collect treasures, and explore beautiful themed locations.',
+            category: 'Puzzle',
+            rating: '★★★★☆',
+            url: 'games/matchventures.html'
+        },
+        {
+            title: 'Squid Game Online',
+            image: 'assets/images/games/squid-game-online.jpg',
+            description: 'Compete in a series of deadly challenges inspired by the popular series, testing your reflexes, precision, and strategy as you try to survive and win the ultimate prize.',
+            category: 'Action',
+            rating: '★★★★★',
+            url: 'games/squid-game-online.html'
+        },
+        {
+            title: 'Kirka.io',
+            image: 'assets/images/games/kirka-io.jpg',
+            description: 'Engage in fast-paced multiplayer first-person shooter battles with customizable weapons, various game modes, and competitive ranking in this action-packed browser FPS.',
+            category: 'Action',
+            rating: '★★★★★',
+            url: 'games/kirka-io.html'
+        },
+        {
+            title: 'Law of the Cat God',
+            image: 'assets/images/games/law-of-the-cat-god.jpg',
+            description: 'Play as a feline deity with godly powers to manipulate the environment, solve clever puzzles, and help your cat followers in this charming puzzle adventure game.',
+            category: 'Puzzle',
+            rating: '★★★★☆',
+            url: 'games/law-of-the-cat-god.html'
+        },
+        {
+            title: 'Color Match AMG',
+            image: 'assets/images/games/color-match-amg.jpg',
+            description: 'Test your reflexes and color recognition skills in this fast-paced matching game with increasing difficulty, minimalist design, and addictive gameplay.',
+            category: 'Puzzle',
+            rating: '★★★★☆',
+            url: 'games/color-match-amg.html'
+        },
+        {
+            title: 'Leek Factory Tycoon',
+            image: 'assets/images/games/leek-factory-tycoon.jpg',
+            description: 'Build and manage your own leek production empire, optimize workflows, hire workers, and expand your business in this addictive idle simulation game.',
+            category: 'Idle',
+            rating: '★★★★☆',
+            url: 'games/leek-factory-tycoon.html'
+        },
+        {
+            title: 'Skillwarz',
+            image: 'assets/images/games/skillwarz.jpg',
+            description: 'Engage in intense multiplayer battles, customize your loadout with various weapons and attachments, and prove your combat skills in this action-packed first-person shooter.',
+            category: 'Action',
+            rating: '★★★★★',
+            url: 'games/skillwarz.html'
+        },
+        {
+            title: 'Jungle Deer Hunting',
+            image: 'assets/images/games/jungle-deer-hunting.jpg',
+            description: 'Track and hunt deer in lush jungle environments with realistic animal behavior, various weapons, and challenging missions in this immersive hunting simulation.',
+            category: 'Simulation',
+            rating: '★★★★☆',
+            url: 'games/jungle-deer-hunting.html'
+        },
+        {
+            title: 'Gridle',
+            image: 'assets/images/games/gridle.jpg',
+            description: 'Challenge your word-guessing skills in this addictive grid-based word puzzle game inspired by Wordle with unique gameplay twists and daily challenges.',
+            category: 'Puzzle',
+            rating: '★★★★☆',
+            url: 'games/gridle.html'
+        },
+        {
+            title: 'Room Escape: Strange Case',
+            image: 'assets/images/games/room-escape-strange-case.jpg',
+            description: 'Solve intricate puzzles and uncover mysterious clues to escape from a bizarre room with a dark secret in this atmospheric point-and-click adventure.',
+            category: 'Puzzle',
+            rating: '★★★★★',
+            url: 'games/room-escape-strange-case.html'
         }
     ];
     
