@@ -22,8 +22,105 @@ function initializeApp() {
 function loadGameData() {
     console.log('Loading game data');
     
-    // 游戏数据
+    // 游戏数据 - 新游戏添加在数组开头，这样会显示在最上方
     const games = [
+        // 最新添加的游戏放在最前面
+        {
+            title: 'Crazy Bus',
+            image: 'assets/images/games/crazy-bus.jpg',
+            description: 'Navigate through busy streets, pick up passengers, and complete routes on time in this challenging and addictive bus driving simulation.',
+            category: 'Simulation',
+            rating: '★★★★☆',
+            url: 'games/crazy-bus.html'
+        },
+        {
+            title: 'Air Block',
+            image: 'assets/images/games/air-block.jpg',
+            description: 'Stack colorful blocks, create perfect towers, and test your balance and timing skills in this addictive physics-based puzzle game.',
+            category: 'Puzzle',
+            rating: '★★★★☆',
+            url: 'games/air-block.html'
+        },
+        {
+            title: 'Limited Kaboom',
+            image: 'assets/images/games/limited-kaboom.jpg',
+            description: 'Strategically place bombs, clear obstacles, and solve challenging puzzles with a limited supply of explosives in this brain-teasing puzzle game.',
+            category: 'Puzzle',
+            rating: '★★★★☆',
+            url: 'games/limited-kaboom.html'
+        },
+        {
+            title: 'Epic Mine',
+            image: 'assets/images/games/epic-mine.jpg',
+            description: 'Dig deep underground, discover rare minerals, upgrade your equipment, and build your mining empire in this addictive resource management game.',
+            category: 'Simulation',
+            rating: '★★★★★',
+            url: 'games/epic-mine.html'
+        },
+        {
+            title: 'Super Squirrel Blaster',
+            image: 'assets/images/games/super-squirrel-blaster.jpg',
+            description: 'Defend your garden from waves of mischievous squirrels in this fast-paced, action-packed arcade shooter with wacky weapons and power-ups.',
+            category: 'Arcade',
+            rating: '★★★★☆',
+            url: 'games/super-squirrel-blaster.html'
+        },
+        {
+            title: 'Tavern Simulator',
+            image: 'assets/images/games/tavern-simulator.jpg',
+            description: 'Build and manage your medieval tavern, serve drinks, cook meals, hire staff, and keep adventurers happy in this engaging management simulation.',
+            category: 'Simulation',
+            rating: '★★★★★',
+            url: 'games/tavern-simulator.html'
+        },
+        {
+            title: 'No Limits Drag Racing',
+            image: 'assets/images/games/no-limits-drag-racing.jpg',
+            description: 'Customize powerful cars, master perfect launches, and compete in high-speed drag races to become the ultimate street racing champion.',
+            category: 'Sports',
+            rating: '★★★★★',
+            url: 'games/no-limits-drag-racing.html'
+        },
+        {
+            title: 'Nuclear Day',
+            image: 'assets/images/games/nuclear-day.jpg',
+            description: 'Survive in a post-apocalyptic world, scavenge for resources, build shelters, and defend against threats in this intense survival simulation.',
+            category: 'Action',
+            rating: '★★★★★',
+            url: 'games/nuclear-day.html'
+        },
+        {
+            title: 'Unique Flavors',
+            image: 'assets/images/games/unique-flavors.jpg',
+            description: 'Run your own ice cream shop, create delicious combinations, serve customers, and build your dessert empire in this fun management simulation.',
+            category: 'Simulation',
+            rating: '★★★★☆',
+            url: 'games/unique-flavors.html'
+        },
+        {
+            title: 'Mojo Match 3D',
+            image: 'assets/images/games/mojo-match-3d.jpg',
+            description: 'Match identical objects, clear levels, and test your memory and observation skills in this addictive 3D matching puzzle game.',
+            category: 'Puzzle',
+            rating: '★★★★☆',
+            url: 'games/mojo-match-3d.html'
+        },
+        {
+            title: 'Empire City',
+            image: 'assets/images/games/empire-city.jpg',
+            description: 'Build and manage your own thriving metropolis, balance resources, and watch your city evolve from a small town to a bustling urban center.',
+            category: 'Simulation',
+            rating: '★★★★★',
+            url: 'games/empire-city.html'
+        },
+        {
+            title: 'Hook Slice',
+            image: 'assets/images/games/hook-slice.jpg',
+            description: 'Master the perfect swing, navigate challenging courses, and compete against players worldwide in this realistic golf simulation game.',
+            category: 'Sports',
+            rating: '★★★★☆',
+            url: 'games/hook-slice.html'
+        },
         {
             title: 'Kingdom Solitaire',
             image: 'assets/images/games/kingdom-solitaire.jpg',
@@ -943,22 +1040,6 @@ function loadGameData() {
             category: 'Idle',
             rating: '★★★★☆',
             url: 'games/idle-blogger-simulator.html'
-        },
-        {
-            title: 'Hook Slice',
-            image: 'assets/images/games/hook-slice.jpg',
-            description: 'Master the perfect swing, navigate challenging courses, and compete against players worldwide in this realistic golf simulation game.',
-            category: 'Sports',
-            rating: '★★★★☆',
-            url: 'games/hook-slice.html'
-        },
-        {
-            title: 'Empire City',
-            image: 'assets/images/games/empire-city.jpg',
-            description: 'Build and manage your own thriving metropolis, balance resources, and watch your city evolve from a small town to a bustling urban center.',
-            category: 'Simulation',
-            rating: '★★★★★',
-            url: 'games/empire-city.html'
         }
     ];
     
