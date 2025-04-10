@@ -903,6 +903,62 @@ function loadGameData() {
             category: 'Action',
             rating: '★★★★★',
             url: 'games/poxel-io.html'
+        },
+        {
+            title: 'Dessert Maker',
+            image: 'assets/images/games/dessert-maker.jpg',
+            description: 'Create delicious virtual treats, decorate cakes, cookies, and more in this relaxing and creative culinary simulation game.',
+            category: 'Simulation',
+            rating: '★★★★☆',
+            url: 'games/dessert-maker.html'
+        },
+        {
+            title: 'Raven Estate',
+            image: 'assets/images/games/raven-estate.jpg',
+            description: 'Explore a mysterious mansion, solve intricate puzzles, and uncover dark secrets in this atmospheric horror adventure game with multiple endings.',
+            category: 'Adventure',
+            rating: '★★★★★',
+            url: 'games/raven-estate.html'
+        },
+        {
+            title: 'TankGank.com',
+            image: 'assets/images/games/tankgank-com.jpg',
+            description: 'Command powerful tanks in intense multiplayer battles, upgrade your arsenal, and dominate the battlefield in this action-packed tank warfare game.',
+            category: 'Action',
+            rating: '★★★★★',
+            url: 'games/tankgank-com.html'
+        },
+        {
+            title: 'Flag Arena - Capture & Dominate',
+            image: 'assets/images/games/flag-arena-capture-dominate.jpg',
+            description: 'Compete in fast-paced multiplayer battles, capture flags, control territories, and outmaneuver opponents in this thrilling action strategy game.',
+            category: 'Action',
+            rating: '★★★★☆',
+            url: 'games/flag-arena-capture-dominate.html'
+        },
+        {
+            title: 'Idle Blogger Simulator',
+            image: 'assets/images/games/idle-blogger-simulator.jpg',
+            description: 'Build your blogging empire, create viral content, gain followers, and upgrade your setup in this addictive idle simulation game.',
+            category: 'Idle',
+            rating: '★★★★☆',
+            url: 'games/idle-blogger-simulator.html'
+        },
+        {
+            title: 'Hook Slice',
+            image: 'assets/images/games/hook-slice.jpg',
+            description: 'Master the perfect swing, navigate challenging courses, and compete against players worldwide in this realistic golf simulation game.',
+            category: 'Sports',
+            rating: '★★★★☆',
+            url: 'games/hook-slice.html'
+        },
+        {
+            title: 'Empire City',
+            image: 'assets/images/games/empire-city.jpg',
+            description: 'Build and manage your own thriving metropolis, balance resources, and watch your city evolve from a small town to a bustling urban center.',
+            category: 'Simulation',
+            rating: '★★★★★',
+            url: 'games/empire-city.html'
         }
     ];
     
