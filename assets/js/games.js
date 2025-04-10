@@ -751,6 +751,158 @@ function loadGameData() {
             category: 'Puzzle',
             rating: '★★★★★',
             url: 'games/room-escape-strange-case.html'
+        },
+        {
+            title: 'Elemental Merge',
+            image: 'assets/images/games/elemental-merge.jpg',
+            description: 'Combine different elements to create new items, unlock hidden combinations, and complete your collection in this addictive puzzle game.',
+            category: 'Puzzle',
+            rating: '★★★★☆',
+            url: 'games/elemental-merge.html'
+        },
+        {
+            title: 'Archers Battle',
+            image: 'assets/images/games/archers-battle.jpg',
+            description: 'Engage in intense archery combat, test your aim and strategic thinking, and compete against other players in various arenas.',
+            category: 'Action',
+            rating: '★★★★☆',
+            url: 'games/archers-battle.html'
+        },
+        {
+            title: 'Doors Castle',
+            image: 'assets/images/games/doors-castle.jpg',
+            description: 'Solve challenging puzzles, unlock mysterious doors, and explore a magical castle filled with secrets and surprises.',
+            category: 'Puzzle',
+            rating: '★★★★☆',
+            url: 'games/doors-castle.html'
+        },
+        {
+            title: 'Mystery Forest - Match 3',
+            image: 'assets/images/games/mystery-forest-match-3.jpg',
+            description: 'Explore an enchanted forest while solving colorful match-3 puzzles, unlocking magical powers and discovering hidden treasures.',
+            category: 'Puzzle',
+            rating: '★★★★☆',
+            url: 'games/mystery-forest-match-3.html'
+        },
+        {
+            title: 'Trash Cafe',
+            image: 'assets/images/games/trash-cafe.jpg',
+            description: 'Manage a unique recycling cafe, sort waste materials, create eco-friendly products, and build a sustainable business in this engaging simulation game.',
+            category: 'Simulation',
+            rating: '★★★★☆',
+            url: 'games/trash-cafe.html'
+        },
+        {
+            title: 'Block Tour KFZ',
+            image: 'assets/images/games/block-tour-kfz.jpg',
+            description: 'Navigate through challenging 3D mazes, solve spatial puzzles, and test your perception skills in this addictive block-based puzzle game.',
+            category: 'Puzzle',
+            rating: '★★★★☆',
+            url: 'games/block-tour-kfz.html'
+        },
+        {
+            title: 'Puzzle Survivor',
+            image: 'assets/images/games/puzzle-survivor.jpg',
+            description: 'Combine match-3 puzzle mechanics with survival strategy as you match tiles to gather resources, craft weapons, and defend against waves of enemies.',
+            category: 'Puzzle',
+            rating: '★★★★☆',
+            url: 'games/puzzle-survivor.html'
+        },
+        {
+            title: 'Idle Medieval Tower Defense',
+            image: 'assets/images/games/idle-medieval-tower-defense.jpg',
+            description: 'Build and upgrade defensive towers, earn resources even while away, and defend your kingdom against endless waves of medieval enemies.',
+            category: 'Idle',
+            rating: '★★★★☆',
+            url: 'games/idle-medieval-tower-defense.html'
+        },
+        {
+            title: 'Dig Tycoon - Idle Game 3D',
+            image: 'assets/images/games/dig-tycoon-idle-game-3d.jpg',
+            description: 'Build your mining empire, upgrade equipment, hire workers, and discover rare minerals in this addictive 3D idle mining simulation.',
+            category: 'Idle',
+            rating: '★★★★☆',
+            url: 'games/dig-tycoon-idle-game-3d.html'
+        },
+        {
+            title: 'Raid Heroes: Dragon Age',
+            image: 'assets/images/games/raid-heroes-dragon-age.jpg',
+            description: 'Assemble a team of legendary heroes, battle fierce dragons, and embark on epic quests in this strategic turn-based RPG adventure.',
+            category: 'RPG',
+            rating: '★★★★★',
+            url: 'games/raid-heroes-dragon-age.html'
+        },
+        {
+            title: '3D Sandbox: Battle of the Kingdoms',
+            image: 'assets/images/games/3d-sandbox-battle-of-the-kingdoms.jpg',
+            description: 'Build your own kingdom, gather resources, recruit armies, and engage in epic battles in this immersive 3D sandbox strategy game.',
+            category: 'Strategy',
+            rating: '★★★★★',
+            url: 'games/3d-sandbox-battle-of-the-kingdoms.html'
+        },
+        {
+            title: 'Right Jump',
+            image: 'assets/images/games/right-jump.jpg',
+            description: 'Test your reflexes and timing in this addictive arcade game where you must jump at precisely the right moment to reach new platforms and achieve high scores.',
+            category: 'Arcade',
+            rating: '★★★★☆',
+            url: 'games/right-jump.html'
+        },
+        {
+            title: 'Super Slime MQF',
+            image: 'assets/images/games/super-slime-mqf.jpg',
+            description: 'Control a bouncy slime character through colorful platforming levels, collect gems, avoid obstacles, and discover hidden secrets in this charming adventure.',
+            category: 'Adventure',
+            rating: '★★★★☆',
+            url: 'games/super-slime-mqf.html'
+        },
+        {
+            title: 'ClashBall.io',
+            image: 'assets/images/games/clashball-io.jpg',
+            description: 'Compete against players worldwide in this fast-paced multiplayer arena game where you control a ball, collect power-ups, and knock opponents off the platform.',
+            category: 'Action',
+            rating: '★★★★☆',
+            url: 'games/clashball-io.html'
+        },
+        {
+            title: 'Mad Royale Tactics',
+            image: 'assets/images/games/mad-royale-tactics.jpg',
+            description: 'Build your team of unique heroes, deploy strategic formations, and battle opponents in this fast-paced auto-battler strategy game.',
+            category: 'Strategy',
+            rating: '★★★★★',
+            url: 'games/mad-royale-tactics.html'
+        },
+        {
+            title: 'Merge Siege Ship JQX',
+            image: 'assets/images/games/merge-siege-ship-jqx.jpg',
+            description: 'Combine ships to create more powerful vessels, build your fleet, and engage in strategic naval battles in this addictive merge-style strategy game.',
+            category: 'Strategy',
+            rating: '★★★★☆',
+            url: 'games/merge-siege-ship-jqx.html'
+        },
+        {
+            title: 'Hyperspace - Quantum Fracture FEZ',
+            image: 'assets/images/games/hyperspace-quantum-fracture-fez.jpg',
+            description: 'Navigate through mind-bending dimensional rifts, solve physics-based puzzles, and explore a visually stunning universe in this innovative sci-fi adventure.',
+            category: 'Puzzle',
+            rating: '★★★★★',
+            url: 'games/hyperspace-quantum-fracture-fez.html'
+        },
+        {
+            title: 'Tenkyu Ball',
+            image: 'assets/images/games/tenkyu-ball.jpg',
+            description: 'Tilt and rotate intricate 3D mazes to guide a ball through challenging obstacles and reach the goal in this addictive physics-based puzzle game.',
+            category: 'Puzzle',
+            rating: '★★★★☆',
+            url: 'games/tenkyu-ball.html'
+        },
+        {
+            title: 'Poxel.io',
+            image: 'assets/images/games/poxel-io.jpg',
+            description: 'Build, fight, and survive in this multiplayer voxel-based battle royale where you gather resources, craft weapons, and compete to be the last player standing.',
+            category: 'Action',
+            rating: '★★★★★',
+            url: 'games/poxel-io.html'
         }
     ];
     
