@@ -26,6 +26,182 @@ function loadGameData() {
     const games = [
         // 最新添加的游戏放在最前面
         {
+            title: 'Fun Puzzles',
+            image: 'assets/images/games/fun-puzzles.jpg',
+            description: 'Challenge your brain with this collection of entertaining puzzles! Solve jigsaw puzzles, match colors, complete patterns, and test your logical thinking in a variety of fun mini-games.',
+            category: 'Puzzle',
+            rating: '★★★★★',
+            url: 'games/fun-puzzles.html'
+        },
+        {
+            title: 'Wizard Masters',
+            image: 'assets/images/games/wizard-masters.jpg',
+            description: 'Master the arcane arts in this magical strategy game! Cast powerful spells, summon mythical creatures, and duel other wizards in epic battles of wit and sorcery.',
+            category: 'Strategy',
+            rating: '★★★★★',
+            url: 'games/wizard-masters.html'
+        },
+        {
+            title: 'Parking Jam',
+            image: 'assets/images/games/parking-jam.jpg',
+            description: 'Solve challenging parking puzzles in this addictive brain teaser! Navigate cars through crowded lots, plan your moves carefully, and clear the path to escape the parking jam.',
+            category: 'Puzzle',
+            rating: '★★★★★',
+            url: 'games/parking-jam.html'
+        },
+        {
+            title: 'Basketball Superstars',
+            image: 'assets/images/games/basketball-superstars.jpg',
+            description: 'Become a basketball legend in this fast-paced sports game! Perfect your shooting skills, perform spectacular dunks, and lead your team to championship glory with intuitive controls and exciting gameplay.',
+            category: 'Sports',
+            rating: '★★★★★',
+            url: 'games/basketball-superstars.html'
+        },
+        {
+            title: 'Scavenger Hunt - Multiplayer',
+            image: 'assets/images/games/scavenger-hunt-multiplayer.jpg',
+            description: 'Join the ultimate multiplayer treasure hunt! Search for hidden objects, solve puzzles, and race against other players to become the champion scavenger in this exciting online adventure.',
+            category: 'Multiplayer',
+            rating: '★★★★★',
+            url: 'games/scavenger-hunt-multiplayer.html'
+        },
+        {
+            title: 'Mega Makeup Seasons Best',
+            image: 'assets/images/games/mega-makeup-seasons-best.jpg',
+            description: 'Express your creativity in this stylish makeup simulation game! Create stunning seasonal looks, experiment with countless cosmetics, and become a virtual beauty influencer.',
+            category: 'Simulation',
+            rating: '★★★★★',
+            url: 'games/mega-makeup-seasons-best.html'
+        },
+        {
+            title: 'Coin Picker',
+            image: 'assets/images/games/coin-picker.jpg',
+            description: 'Collect coins and avoid obstacles in this addictive arcade game! Navigate through challenging levels, unlock new characters, and compete for the highest score in this fast-paced adventure.',
+            category: 'Arcade',
+            rating: '★★★★★',
+            url: 'games/coin-picker.html'
+        },
+        {
+            title: 'Stickman Tower Defense Idle 3D',
+            image: 'assets/images/games/stickman-tower-defense-idle-3d.jpg',
+            description: 'Defend your base against waves of enemies in this addictive idle tower defense game! Place stickman towers strategically, upgrade your defenses, and watch your army automatically battle in stunning 3D.',
+            category: 'Tower Defense',
+            rating: '★★★★★',
+            url: 'games/stickman-tower-defense-idle-3d.html'
+        },
+        {
+            title: 'Neko Sliding Cat Puzzle',
+            image: 'assets/images/games/neko-sliding-cat-puzzle.jpg',
+            description: 'Help the adorable cat reach its goal in this charming sliding puzzle game! Solve increasingly challenging levels by moving blocks, avoiding obstacles, and finding the perfect path.',
+            category: 'Puzzle',
+            rating: '★★★★★',
+            url: 'games/neko-sliding-cat-puzzle.html'
+        },
+        {
+            title: 'Damn It',
+            image: 'assets/images/games/damn-it.jpg',
+            description: 'Build dams to control water flow in this challenging physics-based puzzle game! Strategically place materials, manage resources, and protect villages from flooding in increasingly complex scenarios.',
+            category: 'Puzzle',
+            rating: '★★★★★',
+            url: 'games/damn-it.html'
+        },
+        {
+            title: 'Clash of Ages',
+            image: 'assets/images/games/clash-of-ages.jpg',
+            description: 'Command armies from different historical eras in this epic strategy game! Build your civilization, research technologies, and conquer enemies across time periods from ancient to modern warfare.',
+            category: 'Strategy',
+            rating: '★★★★★',
+            url: 'games/clash-of-ages.html'
+        },
+        {
+            title: 'Zom Strike',
+            image: 'assets/images/games/zom-strike.jpg',
+            description: 'Fight for survival in this intense zombie shooter! Eliminate waves of undead, upgrade your weapons, and defend strategic positions in a post-apocalyptic world overrun by zombies.',
+            category: 'Action',
+            rating: '★★★★★',
+            url: 'games/zom-strike.html'
+        },
+        {
+            title: 'Atomic Champions',
+            image: 'assets/images/games/atomic-champions.jpg',
+            description: 'Battle in this action-packed arena fighter! Choose your unique champion, master special abilities, and compete against other players in fast-paced multiplayer combat.',
+            category: 'Action',
+            rating: '★★★★★',
+            url: 'games/atomic-champions.html'
+        },
+        {
+            title: 'Drag Master',
+            image: 'assets/images/games/drag-master.jpg',
+            description: 'Test your drag racing skills in this adrenaline-pumping racing game! Master the perfect launch, time your gear shifts, and upgrade your car to become the ultimate drag racing champion.',
+            category: 'Racing',
+            rating: '★★★★★',
+            url: 'games/drag-master.html'
+        },
+        {
+            title: 'Jetpack Joyride',
+            image: 'assets/images/games/jetpack-joyride.jpg',
+            description: 'Strap on a bullet-powered jetpack and embark on an action-packed adventure! Dodge obstacles, collect coins, and test your reflexes in this thrilling endless runner game.',
+            category: 'Arcade',
+            rating: '★★★★★',
+            url: 'games/jetpack-joyride.html'
+        },
+        {
+            title: 'War of Mine',
+            image: 'assets/images/games/war-of-mine.jpg',
+            description: 'Experience the harsh reality of war from a civilian perspective in this emotional survival game. Manage resources, make difficult moral choices, and try to stay alive in a besieged city.',
+            category: 'Survival',
+            rating: '★★★★★',
+            url: 'games/war-of-mine.html'
+        },
+        {
+            title: 'Underwater Adventures Match 3',
+            image: 'assets/images/games/underwater-adventures-match-3.jpg',
+            description: 'Dive into an oceanic match-3 puzzle experience! Connect colorful sea creatures, unlock power-ups, and explore the depths of the ocean through challenging and relaxing gameplay.',
+            category: 'Puzzle',
+            rating: '★★★★★',
+            url: 'games/underwater-adventures-match-3.html'
+        },
+        {
+            title: 'Planet Life Idle',
+            image: 'assets/images/games/planet-life-idle.jpg',
+            description: 'Create and evolve your own planet in this relaxing idle game! Develop ecosystems, discover new species, and watch your world flourish with minimal interaction required.',
+            category: 'Idle',
+            rating: '★★★★★',
+            url: 'games/planet-life-idle.html'
+        },
+        {
+            title: 'Raid Heroes: Total War',
+            image: 'assets/images/games/raid-heroes-total-war.jpg',
+            description: 'Command powerful heroes and armies in this epic strategy game! Build your kingdom, recruit legendary champions, and conquer enemy territories in thrilling tactical battles.',
+            category: 'Strategy',
+            rating: '★★★★★',
+            url: 'games/raid-heroes-total-war.html'
+        },
+        {
+            title: 'Minesweeper Duel',
+            image: 'assets/images/games/minesweeper-duel.jpg',
+            description: 'Challenge your friends in this competitive twist on the classic Minesweeper game! Clear mines faster than your opponent and use special power-ups in exciting head-to-head matches.',
+            category: 'Puzzle',
+            rating: '★★★★★',
+            url: 'games/minesweeper-duel.html'
+        },
+        {
+            title: 'Street Racer 2',
+            image: 'assets/images/games/street-racer-2.jpg',
+            description: 'Race through city streets in this adrenaline-pumping driving game! Drift around corners, upgrade your cars, and compete against skilled opponents in intense urban racing action.',
+            category: 'Racing',
+            rating: '★★★★★',
+            url: 'games/street-racer-2.html'
+        },
+        {
+            title: 'QB Legend',
+            image: 'assets/images/games/qb-legend.jpg',
+            description: 'Lead your football team to victory in this exciting quarterback simulation! Make strategic plays, throw perfect passes, and become a legendary QB in this immersive sports game.',
+            category: 'Sports',
+            rating: '★★★★★',
+            url: 'games/qb-legend.html'
+        },
+        {
             title: 'Cat and Granny Original',
             image: 'assets/images/games/cat-and-granny-original.jpg',
             description: 'Help the mischievous cat outsmart the granny in this hilarious stealth adventure! Sneak around the house, cause chaos, and avoid getting caught in this charming cat simulator.',
