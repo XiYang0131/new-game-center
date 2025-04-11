@@ -26,6 +26,150 @@ function loadGameData() {
     const games = [
         // 最新添加的游戏放在最前面
         {
+            title: 'Cat and Granny Original',
+            image: 'assets/images/games/cat-and-granny-original.jpg',
+            description: 'Help the mischievous cat outsmart the granny in this hilarious stealth adventure! Sneak around the house, cause chaos, and avoid getting caught in this charming cat simulator.',
+            category: 'Adventure',
+            rating: '★★★★★',
+            url: 'games/cat-and-granny-original.html'
+        },
+        {
+            title: 'Weapons and Ragdolls',
+            image: 'assets/images/games/weapons-and-ragdolls.jpg',
+            description: 'Experiment with physics in this sandbox game! Test different weapons on ragdoll characters, create chain reactions, and enjoy the hilarious physics-based mayhem.',
+            category: 'Simulation',
+            rating: '★★★★★',
+            url: 'games/weapons-and-ragdolls.html'
+        },
+        {
+            title: 'JamJam',
+            image: 'assets/images/games/jamjam.jpg',
+            description: 'Create your own music in this fun and intuitive rhythm game! Mix beats, add instruments, and compose catchy tunes with simple controls in a colorful musical playground.',
+            category: 'Music',
+            rating: '★★★★★',
+            url: 'games/jamjam.html'
+        },
+        {
+            title: 'Robbie Game Challenges',
+            image: 'assets/images/games/robbie-game-challenges.jpg',
+            description: 'Help Robbie navigate through a series of exciting mini-games and challenges! Test your skills in various gameplay styles from platforming to puzzles in this charming adventure.',
+            category: 'Adventure',
+            rating: '★★★★★',
+            url: 'games/robbie-game-challenges.html'
+        },
+        {
+            title: 'Fruit Party',
+            image: 'assets/images/games/fruit-party.jpg',
+            description: 'Join the colorful fruit celebration in this delightful match-3 puzzle game! Swap juicy fruits, create powerful combos, and complete challenging levels in a vibrant fruity world.',
+            category: 'Puzzle',
+            rating: '★★★★★',
+            url: 'games/fruit-party.html'
+        },
+        {
+            title: 'Chakram Master',
+            image: 'assets/images/games/chakram-master.jpg',
+            description: 'Master the ancient weapon in this action-packed adventure! Throw your chakram to defeat enemies, solve puzzles, and discover hidden treasures in a mystical world.',
+            category: 'Action',
+            rating: '★★★★★',
+            url: 'games/chakram-master.html'
+        },
+        {
+            title: 'Hot Road Infinite',
+            image: 'assets/images/games/hot-road-infinite.jpg',
+            description: 'Race through endless highways in this high-speed driving game! Dodge traffic, collect power-ups, and see how far you can go in this thrilling infinite runner.',
+            category: 'Racing',
+            rating: '★★★★★',
+            url: 'games/hot-road-infinite.html'
+        },
+        {
+            title: 'Obby Parkour Race',
+            image: 'assets/images/games/obby-parkour-race.jpg',
+            description: 'Test your platforming skills in this challenging obstacle course game! Jump, dodge, and race through increasingly difficult levels while competing against other players.',
+            category: 'Platformer',
+            rating: '★★★★★',
+            url: 'games/obby-parkour-race.html'
+        },
+        {
+            title: 'Zombie Mayhem',
+            image: 'assets/images/games/zombie-mayhem.jpg',
+            description: 'Survive the zombie apocalypse in this action-packed shooter! Blast through hordes of undead, upgrade your weapons, and fight to stay alive in increasingly challenging waves.',
+            category: 'Action',
+            rating: '★★★★★',
+            url: 'games/zombie-mayhem.html'
+        },
+        {
+            title: 'Hotfoot Baseball',
+            image: 'assets/images/games/hotfoot-baseball.jpg',
+            description: 'Step up to the plate in this fast-paced baseball game! Perfect your swing timing, hit home runs, and lead your team to victory with intuitive controls and exciting gameplay.',
+            category: 'Sports',
+            rating: '★★★★★',
+            url: 'games/hotfoot-baseball.html'
+        },
+        {
+            title: 'Syntaxia',
+            image: 'assets/images/games/syntaxia.jpg',
+            description: 'Master the art of coding in this educational puzzle game. Solve programming challenges, learn syntax, and build your logical thinking skills in a fun, interactive environment.',
+            category: 'Puzzle',
+            rating: '★★★★★',
+            url: 'games/syntaxia.html'
+        },
+        {
+            title: 'Egg Folks Multiplayer',
+            image: 'assets/images/games/egg-folks-multiplayer.jpg',
+            description: 'Join the egg-citing multiplayer battles where you control quirky egg characters with unique abilities. Compete in various game modes, customize your egg, and climb the leaderboards!',
+            category: 'Multiplayer',
+            rating: '★★★★★',
+            url: 'games/egg-folks-multiplayer.html'
+        },
+        {
+            title: 'Heroes Assemble',
+            image: 'assets/images/games/heroes-assemble.jpg',
+            description: 'Build your team of superheroes, upgrade their abilities, and battle against powerful villains in this action-packed strategy game with stunning comic-style graphics.',
+            category: 'Strategy',
+            rating: '★★★★★',
+            url: 'games/heroes-assemble.html'
+        },
+        {
+            title: 'Knife.io',
+            image: 'assets/images/games/knife-io.jpg',
+            description: 'Throw knives to defeat opponents in this fast-paced multiplayer arena game. Collect power-ups, upgrade your weapons, and become the ultimate knife master!',
+            category: 'Action',
+            rating: '★★★★★',
+            url: 'games/knife-io.html'
+        },
+        {
+            title: 'MemeBattle: What\'s That Meme',
+            image: 'assets/images/games/memebattle-whats-that-meme.jpg',
+            description: 'Test your meme knowledge in this hilarious multiplayer quiz game. Identify popular memes, compete with friends, and prove you\'re the ultimate meme master!',
+            category: 'Casual',
+            rating: '★★★★★',
+            url: 'games/memebattle-whats-that-meme.html'
+        },
+        {
+            title: 'Command Strike FPS',
+            image: 'assets/images/games/command-strike-fps.jpg',
+            description: 'Experience intense first-person shooter action in this tactical combat game. Team up with allies, choose your weapons, and dominate the battlefield with strategic gameplay.',
+            category: 'Action',
+            rating: '★★★★★',
+            url: 'games/command-strike-fps.html'
+        },
+        {
+            title: 'Five O',
+            image: 'assets/images/games/five-o.jpg',
+            description: 'Take on the role of a police officer in this action-packed law enforcement simulation. Patrol the streets, respond to emergency calls, and maintain order in a bustling city.',
+            category: 'Action',
+            rating: '★★★★★',
+            url: 'games/five-o.html'
+        },
+        {
+            title: 'Jail Escape',
+            image: 'assets/images/games/jail-escape.jpg',
+            description: 'Plan your escape from a high-security prison by solving puzzles, finding hidden items, and outsmarting guards in this thrilling adventure game.',
+            category: 'Adventure',
+            rating: '★★★★★',
+            url: 'games/jail-escape.html'
+        },
+        {
             title: 'Crazy Bus',
             image: 'assets/images/games/crazy-bus.jpg',
             description: 'Navigate through busy streets, pick up passengers, and complete routes on time in this challenging and addictive bus driving simulation.',
