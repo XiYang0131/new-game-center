@@ -26,6 +26,54 @@ function loadGameData() {
     const games = [
         // 最新添加的游戏放在最前面
         {
+            title: 'Twisted Tangle NMT',
+            image: 'assets/images/games/twisted-tangle-nmt.jpg',
+            description: 'Untangle the colorful web of lines in this addictive puzzle game! Connect matching nodes without crossing paths, solve increasingly complex patterns, and challenge your spatial reasoning skills.',
+            category: 'Puzzle',
+            rating: '★★★★★',
+            url: 'games/twisted-tangle-nmt.html'
+        },
+        {
+            title: 'TDP4: Team Battle',
+            image: 'assets/images/games/tdp4-team-battle.jpg',
+            description: 'Join the ultimate tactical shooter experience in TDP4: Team Battle! Choose your class, customize your loadout, and engage in intense team-based combat across various maps with strategic objectives.',
+            category: 'Action',
+            rating: '★★★★★',
+            url: 'games/tdp4-team-battle.html'
+        },
+        {
+            title: 'Thread Master - ASMR Embroidery',
+            image: 'assets/images/games/thread-master-asmr-embroidery.jpg',
+            description: 'Experience the calming art of virtual embroidery in this relaxing ASMR game! Create beautiful patterns, unlock new designs, and enjoy the satisfying sound of threading needle through fabric.',
+            category: 'Casual',
+            rating: '★★★★★',
+            url: 'games/thread-master-asmr-embroidery.html'
+        },
+        {
+            title: 'Crazy MotoX Multiplayer',
+            image: 'assets/images/games/crazy-motox-multiplayer.jpg',
+            description: 'Race against other players in this thrilling multiplayer motocross game! Master challenging tracks, perform spectacular stunts, and upgrade your bike to become the ultimate off-road champion.',
+            category: 'Racing',
+            rating: '★★★★★',
+            url: 'games/crazy-motox-multiplayer.html'
+        },
+        {
+            title: 'Hexa Block 2048 Idle',
+            image: 'assets/images/games/hexa-block-2048-idle.jpg',
+            description: 'Combine hexagonal blocks with the same numbers to create higher values in this addictive idle puzzle game! Strategically place blocks, unlock upgrades, and watch your score multiply exponentially.',
+            category: 'Puzzle',
+            rating: '★★★★★',
+            url: 'games/hexa-block-2048-idle.html'
+        },
+        {
+            title: 'SBaloon',
+            image: 'assets/images/games/sbaloon.jpg',
+            description: 'Navigate colorful balloons through challenging obstacles in this addictive arcade game! Test your reflexes, avoid spikes, and collect stars as you float through increasingly difficult levels.',
+            category: 'Arcade',
+            rating: '★★★★★',
+            url: 'games/sbaloon.html'
+        },
+        {
             title: 'Fun Puzzles',
             image: 'assets/images/games/fun-puzzles.jpg',
             description: 'Challenge your brain with this collection of entertaining puzzles! Solve jigsaw puzzles, match colors, complete patterns, and test your logical thinking in a variety of fun mini-games.',
